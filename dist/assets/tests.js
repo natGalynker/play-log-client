@@ -2467,7 +2467,7 @@ define('ga-wdi-boston.ember-auth/tests/users/route.jshint', ['exports'], functio
 });
 /* jshint ignore:start */
 
-require('ga-wdi-boston.ember-auth/tests/test-helper');
+require('play-log-client/tests/test-helper');
 EmberENV.TESTS_FILE_LOADED = true;
 
 /* jshint ignore:end */

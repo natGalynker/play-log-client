@@ -2876,7 +2876,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("play-log-client/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+0bb9bfda"});
+  require("play-log-client/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+262bb0ed"});
 }
 
 /* jshint ignore:end */
