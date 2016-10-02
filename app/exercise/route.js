@@ -17,5 +17,10 @@ export default Ember.Route.extend({
       exercise.destroyRecord();
       // .then(() => this.transitionTo('exercises'));
     },
+
+    createExercise(data) {
+  let exercise = this.get('store').createRecord('exercise', data);
+  exercise.save();
+},
   },
 });
