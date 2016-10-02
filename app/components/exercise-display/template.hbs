@@ -1,6 +1,7 @@
-{{#link-to 'exercise' exercise}}
-<h3>{{exercise.name}}</h3>
-{{/link-to}}
-{{!-- {{exercise.category}}
-{{exercise.description}}
-{{exercise.duration}} --}}
+
+<h2>{{exercise.name}}</h2>
+<h4>{{exercise.description}}</h4>
+<h4>{{exercise.duration}}</h4>
+<h4>{{exercise.category}}</h4>
+<button type="button" class="btn btn-danger"{{action 'delete'}}>
+delete</button>
