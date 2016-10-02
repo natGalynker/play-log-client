@@ -7,11 +7,7 @@ export default Ember.Route.extend({
   return this.get('store').findRecord('exercise', params.exercise_id);
   },
   actions: {
-    // toggleDone (exercise) {
-    //   console.log('yo');
-    // exercise.toggleProperty('done');
-    // return exercise.save();
-    // },
+  
     deleteExercise(exercise){
       console.log('word');
       exercise.destroyRecord();
