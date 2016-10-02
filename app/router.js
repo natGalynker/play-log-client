@@ -11,6 +11,7 @@ Router.map(function () {
   this.route('change-password');
   this.route('users');
   this.route('exercises');
+  this.route('exercise', { path: 'exercises/:exercise_id' });
 });
 
 export default Router;
