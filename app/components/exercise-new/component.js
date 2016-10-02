@@ -8,8 +8,8 @@ actions: {
     this.set('exercise', {});
   },
 
-  create(){
-    this.sendAction('create', this.get('exercise'));
+  createExercise(){
+    this.sendAction('createExercise', this.get('exercise'));
   }
 }
 

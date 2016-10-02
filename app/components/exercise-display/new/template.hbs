@@ -38,4 +38,44 @@ Create Exercise
 
 <button class="btn btn-default" {{action "reset"}}>
   Cancel
+</button><h1>Tell us how You keep moving!</h1>
+
+<h4>Keep Active? How?</h4>
+
+<div class="form-group">
+  <label for="category">Type of Exercise</label>
+  {{input placeholder="Routine, Warmup, Cooldown, Class, Stretching etc"
+          type="text"
+          id="category"
+          value=exercise.category}}
+
+</div>
+<div class="form-group">
+  <label for="name">Name of workout</label>
+  {{input placeholder="AM yoga flow, squat day etc"
+          type="text"
+          id="name"
+          value=exercise.name}}
+</div>
+
+<div class="form-group">
+  <label for="description">Description</label>
+  {{input placeholder="Tell us what your workout includes!"
+          type="text"
+          id="description"
+          value=exercise.description}}
+</div>
+<div class="form-group">
+  <label for="duration">Duration</label>
+  {{input placeholder="length of exercise in time or distance"
+          type="text"
+          id="duration"
+          value=exercise.duration}}
+</div>
+<button type="submit" class="btn btn-primary" {{action "save"}}>
+Create Exercise
+</button>
+
+<button class="btn btn-default" {{action "reset"}}>
+  Cancel
 </button>
