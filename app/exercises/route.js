@@ -7,7 +7,11 @@ export default Ember.Route.extend({
   },
 
   actions: {
-
+    // toggleDone (exercise) {
+    //   console.log('yo');
+    // exercise.toggleProperty('done');
+    // return exercise.save();
+    // },
     deleteExercise(exercise){
       console.log('word');
       return exercise.destroyRecord();

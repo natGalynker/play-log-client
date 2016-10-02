@@ -1,5 +1,5 @@
 {{#each model as |exercise| }}
-{{exercise-display exercise=exercise}}
+{{exercise-display exercise=exercise delete='deleteExercise'}}
 {{#link-to 'exercise' exercise}}
 <h3>{{exercise.name}}</h3>
 {{/link-to}}
