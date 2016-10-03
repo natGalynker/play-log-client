@@ -12,6 +12,7 @@ relevent to you.
 It is built with Ruby on Rails, Javascript, Bootstrap and EmberJS
 
 [myimage-alt-tag]('./play-log-screenshot.png')
+[link to my planning slide show](https://docs.google.com/presentation/d/1m0yT8HzM7hc2NuquLoaNMoZqRXd4EYJVA_z8-wP0q0w/edit?usp=sharing)
 
 
 
