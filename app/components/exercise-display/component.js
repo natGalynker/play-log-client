@@ -8,6 +8,6 @@ export default Ember.Component.extend({
       delete(){
         this.sendAction('delete', this.get('exercise'));
         console.log('word');
-      }
+      },
     },
 });

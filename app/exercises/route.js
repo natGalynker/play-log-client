@@ -15,8 +15,6 @@ export default Ember.Route.extend({
     deleteExercise(exercise){
       console.log('word');
       return exercise.destroyRecord();
-    }
+    },
   },
-
-
 });
