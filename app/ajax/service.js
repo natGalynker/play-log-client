@@ -1,9 +1,10 @@
 import Ember from 'ember';
 import AjaxService from 'ember-ajax/services/ajax';
-// import ENV from '../config/environment';
+import ENV from 'ga-wdi-boston.ember-auth/config/environment';
 
 export default AjaxService.extend({
   auth: Ember.inject.service(),
+  host: ENV.apiHost,
   headers: Ember.computed('auth.credentials.token', {
     get () {
       let headers = {};

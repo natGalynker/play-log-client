@@ -40,8 +40,12 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.baseURL = '/';
+    ENV.locationType = 'hash';
+    ENV.apiHost = 'https://git.heroku.com/nameless-waters-20598';
+}
 
-  }
+  };
 
   return ENV;
 };
