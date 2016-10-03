@@ -5,7 +5,7 @@ export default Ember.Route.extend({
     return this.store.createRecord('exercise');
   },
 
-  actions: {
+  <----starts actions: {
 
     saveExercise(createExercise) {
       createExercise.save()
@@ -13,4 +13,4 @@ export default Ember.Route.extend({
     },
   }
 
-});
+});-------> ends here
