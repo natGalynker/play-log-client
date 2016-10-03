@@ -5,12 +5,12 @@ export default Ember.Route.extend({
     return this.store.createRecord('exercise');
   },
 
-  <----starts actions: {
+  actions: {
 
     saveExercise(createExercise) {
-      createExercise.save()
+      return createExercise.save()
       .then(() => this.transitionTo('exercises'));
     },
   }
 
-});-------> ends here
+});
