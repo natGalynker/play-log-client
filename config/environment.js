@@ -2,8 +2,9 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'client-play-log',
+    modulePrefix: 'ga-wdi-boston.ember-auth',
     environment: environment,
+    apiHost: 'http://localhost:3000/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
@@ -40,7 +41,9 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.baseURL = '/';
+    ENV.locationType = 'hash';
+    ENV.apiHost = 'https://nameless-waters-20598.herokuapp.com/';
   }
 
   return ENV;

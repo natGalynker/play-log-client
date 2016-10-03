@@ -1,10 +1,10 @@
 import Ember from 'ember';
 import AjaxService from 'ember-ajax/services/ajax';
-import ENV from 'play-log-client/config/environment';
+import ENV from 'ga-wdi-boston.ember-auth/config/environment';
 
 export default AjaxService.extend({
-  auth: Ember.inject.service(),
   host: ENV.apiHost,
+  auth: Ember.inject.service(),
   headers: Ember.computed('auth.credentials.token', {
     get () {
       let headers = {};

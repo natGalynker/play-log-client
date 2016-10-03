@@ -1,11 +1,10 @@
 import Ember from 'ember';
 import ActiveModelAdapter from 'active-model-adapter';
-import ENV from 'play-log-client/config/environment';
+import ENV from 'ga-wdi-boston.ember-auth/config/environment';
 
 export default ActiveModelAdapter.extend({
   auth: Ember.inject.service(),
   host: ENV.apiHost,
-
   headers: Ember.computed('auth.credentials.token', {
     get () {
       let headers = {};
