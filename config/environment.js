@@ -6,6 +6,7 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
+    // apiHost: 'http://localhost:3000/',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -42,10 +43,9 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.baseURL = '/';
     ENV.locationType = 'hash';
-    ENV.apiHost = 'https://git.heroku.com/nameless-waters-20598';
-}
+    ENV.apiHost = 'https://nameless-waters-20598.herokuapp.com';
 
-  };
+  }
 
   return ENV;
 };
