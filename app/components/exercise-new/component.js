@@ -8,16 +8,14 @@ actions: {
   clear(){
     this.set('exercise', {});
   },
+<<<<<<< HEAD
     // sends the action of create exercise to the exercise route
+=======
+  // sends the action of create exercise to the exercise route
+>>>>>>> fix-errors
   createExercise(){
     this.sendAction('createExercise', this.get('exercise'));
   }
 }
 
 });
-
-//     this.set('exercise.category', null);
-//     this.set('exercise.name', null);
-//     this.set('exercise.description', null);
-//     this.set('exercise.duration', null);
-//   },

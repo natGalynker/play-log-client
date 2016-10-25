@@ -97,6 +97,7 @@ define('ga-wdi-boston.ember-auth/tests/components/exercise-display/component.jsh
     assert.ok(true, 'components/exercise-display/component.js should pass jshint.');
   });
 });
+<<<<<<< HEAD
 define('ga-wdi-boston.ember-auth/tests/components/exercise-display/model.jshint', ['exports'], function (exports) {
   'use strict';
 
@@ -106,6 +107,8 @@ define('ga-wdi-boston.ember-auth/tests/components/exercise-display/model.jshint'
     assert.ok(true, 'components/exercise-display/model.js should pass jshint.');
   });
 });
+=======
+>>>>>>> fix-errors
 define('ga-wdi-boston.ember-auth/tests/components/exercise-display/new/component.jshint', ['exports'], function (exports) {
   'use strict';
 
