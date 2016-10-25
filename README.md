@@ -1,5 +1,5 @@
-
 ## Vision
+A Place for logging you exercises, your way for starting projects Built with Ruby on Rails using Postgres. It was build for the Play Log Application.
 
 
 Play Log is an all access, none turned away way to keep track of ones exercises.
@@ -11,10 +11,10 @@ relevent to you.
 
 It is built with Ruby on Rails, Javascript, Bootstrap and EmberJS
 
+
+
 [myimage-alt-tag]('./play-log-screenshot.png')
 [link to my planning slide show](https://docs.google.com/presentation/d/1m0yT8HzM7hc2NuquLoaNMoZqRXd4EYJVA_z8-wP0q0w/edit?usp=sharing)
-
-
 
 ## Preparation
 
@@ -23,23 +23,27 @@ It is built with Ruby on Rails, Javascript, Bootstrap and EmberJS
 1.Go here [Play Log API]  (http://github.com/natGalynker/play-log-api)  to follow the instructions to spin up the Play Log API Repos
 1. Start the font-end server with `ember server --proxy http://localhost:3000`.
 
+
 ## User Stories
 1. As A User I want to be able to view my exercises
 2. As A User I want to be able to create new exercises
 3. As A USer I want to be able to Delete an exercise
 4. As A user I want to be Able to keep my exercises private
 
+
+
 ## WireFrames
 
-
-
 ## Vision For the Future
+
+
 
 In the time approaching there will be improvements to this project. There will
 be a drop down selector for the type of exercise, along with a thrid party
 intergration that will allow a user to set a target for how many times a week
 they would like to complete an exercise. If they complete their goal, they will
 revieve an sms text informing them!
+
 
 ##Struggles
 
@@ -56,9 +60,3 @@ proud of in the end.
 [Link to Back End Repo](http://github.com/natGalynker/play-log-api)
 [Version one api](http://github.com/natGalynker/play-together-api)
 [Version one client](http://github.com/natGalynker/play-together-client)
-
-## [License](LICENSE)
-
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.

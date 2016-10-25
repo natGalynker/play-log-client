@@ -2,6 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   // creates a new exercise object which data will be sent to
+
   exercise: {},
   // where the send actions will be
   actions: {
@@ -11,8 +12,6 @@ export default Ember.Component.extend({
     // sends the action createExercise down to the exercise route
     createExercise(){
       this.sendAction('createExercise', this.get('exercise'));
-      console.log(this.get('exercise'));
-      console.log('test');
     }
   }
 });
