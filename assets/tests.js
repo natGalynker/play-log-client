@@ -97,6 +97,15 @@ define('ga-wdi-boston.ember-auth/tests/components/exercise-display/component.jsh
     assert.ok(true, 'components/exercise-display/component.js should pass jshint.');
   });
 });
+define('ga-wdi-boston.ember-auth/tests/components/exercise-display/model.jshint', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint - components/exercise-display/model.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'components/exercise-display/model.js should pass jshint.');
+  });
+});
 define('ga-wdi-boston.ember-auth/tests/components/exercise-display/new/component.jshint', ['exports'], function (exports) {
   'use strict';
 
