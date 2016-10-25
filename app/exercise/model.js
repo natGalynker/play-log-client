@@ -6,6 +6,7 @@ export default DS.Model.extend({
   user: DS.belongsTo('user'),
   description: DS.attr('string'),
   duration: DS.attr('string'),
-  done: DS.attr('boolean')
+  done: DS.attr('boolean'),
+  editable: DS.attr('boolean')
 
 });
