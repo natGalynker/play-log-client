@@ -2290,7 +2290,7 @@ define("ga-wdi-boston.ember-auth/exercises/template", ["exports"], function (exp
               "column": 0
             },
             "end": {
-              "line": 6,
+              "line": 3,
               "column": 0
             }
           },
@@ -2333,7 +2333,7 @@ define("ga-wdi-boston.ember-auth/exercises/template", ["exports"], function (exp
             "column": 0
           },
           "end": {
-            "line": 8,
+            "line": 4,
             "column": 0
           }
         },
@@ -2356,7 +2356,7 @@ define("ga-wdi-boston.ember-auth/exercises/template", ["exports"], function (exp
         dom.insertBoundary(fragment, null);
         return morphs;
       },
-      statements: [["block", "each", [["get", "model", ["loc", [null, [1, 8], [1, 13]]]]], [], 0, null, ["loc", [null, [1, 0], [6, 9]]]]],
+      statements: [["block", "each", [["get", "model", ["loc", [null, [1, 8], [1, 13]]]]], [], 0, null, ["loc", [null, [1, 0], [3, 9]]]]],
       locals: [],
       templates: [child0]
     };
@@ -2945,7 +2945,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ga-wdi-boston.ember-auth/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+a9d3810f"});
+  require("ga-wdi-boston.ember-auth/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+d5841a90"});
 }
 
 /* jshint ignore:end */
