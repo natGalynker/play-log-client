@@ -7,16 +7,16 @@ export default Ember.Route.extend({
   },
 
   actions: {
+    //this handles the button action of being clicked
+    //and changing that exercise back and forth from true and false
     toggleDone (exercise) {
-      console.log('yo');
     exercise.toggleProperty('done');
     return exercise.save();
     },
+    // handles the removal and deletion of an instance. It goes to the DS and
+    //removes that instance
     deleteExercise(exercise){
-      console.log('word');
       return exercise.destroyRecord();
     }
   },
-
-
 });

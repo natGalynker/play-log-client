@@ -2,9 +2,17 @@
 <h4>{{exercise.description}}</h4>
 <h4>{{exercise.duration}}</h4>
 <h4>{{exercise.category}}</h4>
-<button type="button" class="btn btn-danger"{{action 'delete'}}>
-  delete
-</button>
-  <button type="button" class="btn btn-info"{{action 'done'}}>
-    Exercise Complete
-  </button>
+<h4>{{exercise.done}}</h4>
+
+{{#if exercise.editable}}
+<h2>{{exercise.name}}</h2>
+<h4>{{exercise.description}}</h4>
+<h4>{{exercise.duration}}</h4>
+<h4>{{exercise.category}}</h4>
+ <button type="button" class="btn btn-danger"{{action 'delete'}}>
+   delete
+ </button>
+   <button type="button" class="btn btn-info"{{action 'done'}}>
+     Exercise Complete
+   </button>
+{{/if}}
