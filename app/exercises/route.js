@@ -15,7 +15,6 @@ export default Ember.Route.extend({
     },
     // handles the removal and deletion of an instance. It goes to the DS and
     //removes that instance
-
     deleteExercise(exercise){
       return exercise.destroyRecord();
     },

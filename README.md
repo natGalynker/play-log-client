@@ -1,4 +1,5 @@
 ## Vision
+A Place for logging you exercises, your way for starting projects Built with Ruby on Rails using Postgres. It was build for the Play Log Application.
 
 Play Log is an all access, none turned away way to keep track of ones exercises.
 A lot of applications focus on the end goal of losing weight and counting calories
@@ -9,9 +10,8 @@ relevent to you.
 
 It is built with Ruby on Rails, Javascript, Bootstrap and EmberJS
 
-
 [myimage-alt-tag]('./play-log-screenshot.png')
--[link to my planning slide show](https://docs.google.com/presentation/d/1m0yT8HzM7hc2NuquLoaNMoZqRXd4EYJVA_z8-wP0q0w/edit?usp=sharing)
+[link to my planning slide show](https://docs.google.com/presentation/d/1m0yT8HzM7hc2NuquLoaNMoZqRXd4EYJVA_z8-wP0q0w/edit?usp=sharing)
 
 ## Preparation
 
@@ -19,8 +19,6 @@ It is built with Ruby on Rails, Javascript, Bootstrap and EmberJS
 1. Install dependencies with `npm install` and `bower install`.
 1.Go here [Play Log API]  (http://github.com/natGalynker/play-log-api)  to follow the instructions to spin up the Play Log API Repos
 1. Start the font-end server with `ember server --proxy http://localhost:3000`.
-
-
 
 ## User Stories
 1. As A User I want to be able to view my exercises
@@ -30,10 +28,8 @@ It is built with Ruby on Rails, Javascript, Bootstrap and EmberJS
 
 
 
+
 ## Vision For the Future
-
-
-
 
 
 In the time approaching there will be improvements to this project. There will

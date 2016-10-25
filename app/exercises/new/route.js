@@ -14,12 +14,10 @@ export default Ember.Route.extend({
       return createExercise.save()
       .then(() => this.transitionTo('exercises'));
     },
-
         willTransition() {
       this.controller.get('model').rollbackAttributes();
 
     },
-    //clears the data entered in the form so it does not get saved
   }
 
         // Bubble the `willTransition` action so that
