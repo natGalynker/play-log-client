@@ -45,11 +45,15 @@ module.exports = function(environment) {
     ENV.baseURL = '/';
     ENV.locationType = 'hash';
 <<<<<<< HEAD
+<<<<<<< HEAD
     ENV.apiHost = 'https://nameless-waters-20598.herokuapp.com';
 
 =======
     ENV.apiHost = 'https://nameless-waters-20598.herokuapp.com/';
 >>>>>>> fix-errors
+=======
+    ENV.apiHost = 'https://nameless-waters-20598.herokuapp.com/';
+>>>>>>> fix-scope
   }
 
   return ENV;

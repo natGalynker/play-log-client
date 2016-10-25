@@ -1,5 +1,9 @@
 ## Vision
+<<<<<<< HEAD
 +A Place for logging you exercises, your way for starting projects Built with Ruby on Rails using Postgres. It was build for the Play Log Application.
+=======
+A Place for logging you exercises, your way for starting projects Built with Ruby on Rails using Postgres. It was build for the Play Log Application.
+>>>>>>> fix-scope
 
 
 Play Log is an all access, none turned away way to keep track of ones exercises.
@@ -12,10 +16,15 @@ relevent to you.
 It is built with Ruby on Rails, Javascript, Bootstrap and EmberJS
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [myimage-alt-tag]('./play-log-screenshot.png')
 [link to my planning slide show](https://docs.google.com/presentation/d/1m0yT8HzM7hc2NuquLoaNMoZqRXd4EYJVA_z8-wP0q0w/edit?usp=sharing)
+=======
+>>>>>>> fix-scope
 
 
+[myimage-alt-tag]('./play-log-screenshot.png')
+[link to my planning slide show](https://docs.google.com/presentation/d/1m0yT8HzM7hc2NuquLoaNMoZqRXd4EYJVA_z8-wP0q0w/edit?usp=sharing)
 
 ## Preparation
 
@@ -37,6 +46,7 @@ It is built with Ruby on Rails, Javascript, Bootstrap and EmberJS
 
 >>>>>>> fix-errors
 
+
 ## User Stories
 1. As A User I want to be able to view my exercises
 2. As A User I want to be able to create new exercises
@@ -44,9 +54,13 @@ It is built with Ruby on Rails, Javascript, Bootstrap and EmberJS
 4. As A user I want to be Able to keep my exercises private
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## WireFrames
+=======
+>>>>>>> fix-scope
 
 
+## WireFrames
 
 ## Vision For the Future
 =======
@@ -57,6 +71,8 @@ It is built with Ruby on Rails, Javascript, Bootstrap and EmberJS
 
 >>>>>>> fix-errors
 
+
+
 In the time approaching there will be improvements to this project. There will
 be a drop down selector for the type of exercise, along with a thrid party
 intergration that will allow a user to set a target for how many times a week
@@ -64,6 +80,10 @@ they would like to complete an exercise. If they complete their goal, they will
 revieve an sms text informing them!
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> fix-scope
 ##Struggles
 
 I had to overcome some pretty big hurdles. One of them was a pretty significant
@@ -79,6 +99,7 @@ proud of in the end.
 [Link to Back End Repo](http://github.com/natGalynker/play-log-api)
 [Version one api](http://github.com/natGalynker/play-together-api)
 [Version one client](http://github.com/natGalynker/play-together-client)
+<<<<<<< HEAD
 =======
 
 ##Struggles
@@ -92,3 +113,5 @@ a lot more of a stuggle with me fighting the bug than with me starting over. But
 process was a learning exerperience so I linked the previous project here as well.
 This hurdle really helped me let go of the attachment I had to the vision I originally had and refocus in a way that led to some much more manageable and code I am very
 proud of in the end.
+=======
+>>>>>>> fix-scope
