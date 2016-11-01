@@ -1,15 +1,19 @@
-<h2>Name:{{exercise.name}}</h2>
-<h4>Description:{{exercise.description}}</h4>
-<h4>Duration:{{exercise.duration}}</h4>
-<h4>Category:{{exercise.category}}</h4>
-<h4>Done:{{exercise.done}}</h4>
-<hr>
-
-{{#if exercise.editable}}
-<h2>{{exercise.name}}</h2>
-<h4>{{exercise.description}}</h4>
-<h4>{{exercise.duration}}</h4>
-<h4>{{exercise.category}}</h4>
+<div class="exercise-container">
+<div class="col-lg-3 exercise-holder" >
+  <div class="exercise-title">
+      <h2>Name:{{exercise.name}}</h2>
+  </div>
+      <h4>Description:{{exercise.description}}</h4>
+      <h4>Duration:{{exercise.duration}}</h4>
+      <h4>Category:{{exercise.category}}</h4>
+      <h4>Done:{{exercise.done}}</h4>
+ {{#if exercise.editable}}
+ <div class="exercise-title">
+     <h2>Name:{{exercise.name}}</h2>
+ </div>
+    <h4>Description:{{exercise.description}}</h4>
+    <h4>Duration:{{exercise.duration}}</h4>
+    <h4>Category:{{exercise.category}}</h4>
  <button type="button" class="btn btn-danger"{{action 'delete'}}>
    delete
  </button>
@@ -17,3 +21,5 @@
      Exercise Complete
    </button>
 {{/if}}
+  </div>
+</div>
