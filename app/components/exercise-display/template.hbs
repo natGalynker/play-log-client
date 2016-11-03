@@ -1,5 +1,6 @@
 <div class="exercise-container">
-<div class="col-lg-3 exercise-holder" >
+  {{!-- <div class="row"> --}}
+<div class="col-md-4 exercise-holder item">
   <div class="exercise-title">
       <h2>Name:{{exercise.name}}</h2>
   </div>
@@ -7,7 +8,9 @@
       <h4>Duration:{{exercise.duration}}</h4>
       <h4>Category:{{exercise.category}}</h4>
       <h4>Done:{{exercise.done}}</h4>
+    </div>
  {{#if exercise.editable}}
+ <div class="col-md-4 exercise-editable-holder item">
  <div class="exercise-title">
      <h2>Name:{{exercise.name}}</h2>
  </div>
@@ -20,6 +23,7 @@
    <button type="button" class="btn btn-info"{{action 'done'}}>
      Exercise Complete
    </button>
+ </div>
 {{/if}}
-  </div>
+{{!-- </div> --}}
 </div>

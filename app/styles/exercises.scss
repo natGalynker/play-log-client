@@ -1,8 +1,22 @@
-.exercise-holder {
-  margin: 2%;
-  border: 3px black;
+.container-fluid {
+  background-color: #efefef;
 }
 
+.exercise-holder {
+background-color: #f7f7ff;
+margin: 2%;
+margin-bottom: 2% !important;
+
+}
+.exercise-editable-holder {
+  margin: 2%;
+}
+
+ .item {
+   margin-bottom: auto 2% !important;
+     background-color: pink;
+ }
+
 .exercise-container {
-border: 2px pink;
+  background-color: pink;
 }
