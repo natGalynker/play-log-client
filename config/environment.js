@@ -43,7 +43,7 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.baseURL = '/';
     ENV.locationType = 'hash';
-    ENV.apiHost = 'https://nameless-waters-20598.herokuapp.com/';
+    ENV.apiHost = 'https://whispering-refuge-30775.herokuapp.com/';
   }
 
 

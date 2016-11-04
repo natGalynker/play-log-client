@@ -3047,8 +3047,8 @@ define("ga-wdi-boston.ember-auth/users/template", ["exports"], function (exports
 
 /* jshint ignore:start */
 
-define('ga-wdi-boston.ember-auth/config/environment', ['ember'], function(Ember) {
-  var prefix = 'ga-wdi-boston.ember-auth';
+define('play-log/config/environment', ['ember'], function(Ember) {
+  var prefix = 'play-log';
 /* jshint ignore:start */
 
 try {
@@ -3071,7 +3071,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ga-wdi-boston.ember-auth/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+86ebb6b2"});
+  require("play-log/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+fcb52104"});
 }
 
 /* jshint ignore:end */
