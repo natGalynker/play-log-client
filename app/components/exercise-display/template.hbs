@@ -1,26 +1,25 @@
 <div class="exercise-container">
   {{!-- <div class="row"> --}}
-<div class="col-md-4 exercise-holder item">
-  <div class="exercise-title">
-      <h2>Name:{{exercise.name}}</h2>
-  </div>
-      <h4>Description:{{exercise.description}}</h4>
-      <h4>Duration:{{exercise.duration}}</h4>
-      <h4>Category:{{exercise.category}}</h4>
-      <h4>Done:{{exercise.done}}</h4>
+<div class="col-md-3 col-lg-3 exercise-holder item">
+      <h2 class='exercise-name'>Name:{{exercise.name}}</h2>
+      <p>Description:{{exercise.description}}</p>
+      <p>Duration:{{exercise.duration}}</p>
+      <p>Category:{{exercise.category}}</p>
+      <p>Done:{{exercise.done}}</p>
+      <p>Added By:{{exercise.user.email}}</p>
     </div>
  {{#if exercise.editable}}
- <div class="col-md-4 exercise-editable-holder item">
- <div class="exercise-title">
-     <h2>Name:{{exercise.name}}</h2>
- </div>
-    <h4>Description:{{exercise.description}}</h4>
-    <h4>Duration:{{exercise.duration}}</h4>
-    <h4>Category:{{exercise.category}}</h4>
- <button type="button" class="btn btn-danger"{{action 'delete'}}>
+ <div class="col-md-3 col-lg-3 exercise-editable-holder item">
+    <h2 class ='exercise-name'>Name:{{exercise.name}}</h2>
+    <p>Description:{{exercise.description}}</p>
+    <p>Duration:{{exercise.duration}}</p>
+    <p>Category:{{exercise.category}}</p>
+    <p>Added By:{{exercise.user.email}}</p>
+ <button type="button" class="btn custom-btn"{{action 'delete'}}>
    delete
  </button>
-   <button type="button" class="btn btn-info"{{action 'done'}}>
+ <br><span></span>
+   <button type="button" class="btn custom-btn"{{action 'done'}}>
      Exercise Complete
    </button>
  </div>

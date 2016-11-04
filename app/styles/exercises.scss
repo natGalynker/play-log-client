@@ -1,22 +1,66 @@
 .container-fluid {
-  background-color: #efefef;
+  background-color: #7cb875;
+  background-image: url('http://i.imgur.com/I0vwZdt.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
 }
 
 .exercise-holder {
-background-color: #f7f7ff;
+background-color: pink;
 margin: 2%;
 margin-bottom: 2% !important;
+border-radius: 20px;
+padding-bottom: 5%;
+padding-top: 0;
 
+padding-left: 0;
+padding-right: 0;
+opacity: .6
 }
 .exercise-editable-holder {
+  background-color: pink;
   margin: 2%;
+  border-radius: 20px;
+  padding-bottom: 5%;
 }
 
  .item {
-   margin-bottom: auto 2% !important;
-     background-color: pink;
+  //  margin-bottom: auto 2% !important;
+   text-align: center;
+   align-content: center;
  }
+.exercise-name {
+  background-color: red;
+  opacity: .3;
+  color: #fff;
+  width: 100%;
+  padding-top: 0;
+}
 
 .exercise-container {
-  background-color: pink;
+  border-radius: 30px;
 }
+ .intro-title {
+   text-align: center;
+ }
+
+ .intro-body {
+   text-align: center;
+ }
+
+ .intro-container {
+   background-color: teal;
+   width: 82%;
+ }
+
+.patch-button {
+  display: inline-block;
+  height: auto;
+}
+
+ .custom-btn {
+   background-color: #d3ffce !important;
+   border-radius: 25px;
+   margin-bottom: 5%;
+ }
