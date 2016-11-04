@@ -20,7 +20,8 @@ $background-green: #7cb875;
   border-radius: 20px;
   margin: 2% !important;
   opacity: .7;
-  padding: 0 0 5%;
+  padding: 5%;
+  width: auto;
 }
 
 .exercise-editable-holder {
@@ -28,6 +29,7 @@ $background-green: #7cb875;
   border-radius: 20px;
   margin: 2%;
   padding-bottom: 5%;
+  width: auto;
 }
 
 .item {
