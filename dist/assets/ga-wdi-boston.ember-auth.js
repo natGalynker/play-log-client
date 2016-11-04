@@ -766,11 +766,11 @@ define("ga-wdi-boston.ember-auth/components/exercise-display/template", ["export
           "loc": {
             "source": null,
             "start": {
-              "line": 11,
+              "line": 9,
               "column": 1
             },
             "end": {
-              "line": 26,
+              "line": 17,
               "column": 0
             }
           },
@@ -784,72 +784,24 @@ define("ga-wdi-boston.ember-auth/components/exercise-display/template", ["export
           var el0 = dom.createDocumentFragment();
           var el1 = dom.createTextNode(" ");
           dom.appendChild(el0, el1);
-          var el1 = dom.createElement("div");
-          dom.setAttribute(el1, "class", "col-md-3 col-lg-3 exercise-editable-holder item");
-          var el2 = dom.createTextNode("\n    ");
+          var el1 = dom.createElement("button");
+          dom.setAttribute(el1, "type", "button");
+          dom.setAttribute(el1, "class", "btn custom-btn");
+          var el2 = dom.createTextNode("\n  Delete Exercise\n ");
           dom.appendChild(el1, el2);
-          var el2 = dom.createElement("h2");
-          dom.setAttribute(el2, "class", "exercise-name");
-          var el3 = dom.createTextNode("Name:");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createComment("");
-          dom.appendChild(el2, el3);
-          dom.appendChild(el1, el2);
-          var el2 = dom.createTextNode("\n    ");
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("p");
-          var el3 = dom.createTextNode("Description:");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createComment("");
-          dom.appendChild(el2, el3);
-          dom.appendChild(el1, el2);
-          var el2 = dom.createTextNode("\n    ");
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("p");
-          var el3 = dom.createTextNode("Duration:");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createComment("");
-          dom.appendChild(el2, el3);
-          dom.appendChild(el1, el2);
-          var el2 = dom.createTextNode("\n    ");
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("p");
-          var el3 = dom.createTextNode("Category:");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createComment("");
-          dom.appendChild(el2, el3);
-          dom.appendChild(el1, el2);
-          var el2 = dom.createTextNode("\n    ");
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("p");
-          var el3 = dom.createTextNode("Added By:");
-          dom.appendChild(el2, el3);
-          var el3 = dom.createComment("");
-          dom.appendChild(el2, el3);
-          dom.appendChild(el1, el2);
-          var el2 = dom.createTextNode("\n ");
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("button");
-          dom.setAttribute(el2, "type", "button");
-          dom.setAttribute(el2, "class", "btn custom-btn");
-          var el3 = dom.createTextNode("\n   delete\n ");
-          dom.appendChild(el2, el3);
-          dom.appendChild(el1, el2);
-          var el2 = dom.createTextNode("\n ");
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("br");
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("span");
-          dom.appendChild(el1, el2);
-          var el2 = dom.createTextNode("\n   ");
-          dom.appendChild(el1, el2);
-          var el2 = dom.createElement("button");
-          dom.setAttribute(el2, "type", "button");
-          dom.setAttribute(el2, "class", "btn custom-btn");
-          var el3 = dom.createTextNode("\n     Exercise Complete\n   ");
-          dom.appendChild(el2, el3);
-          dom.appendChild(el1, el2);
-          var el2 = dom.createTextNode("\n ");
+          dom.appendChild(el0, el1);
+          var el1 = dom.createTextNode("\n ");
+          dom.appendChild(el0, el1);
+          var el1 = dom.createElement("br");
+          dom.appendChild(el0, el1);
+          var el1 = dom.createElement("span");
+          dom.appendChild(el0, el1);
+          var el1 = dom.createTextNode("\n   ");
+          dom.appendChild(el0, el1);
+          var el1 = dom.createElement("button");
+          dom.setAttribute(el1, "type", "button");
+          dom.setAttribute(el1, "class", "btn custom-btn");
+          var el2 = dom.createTextNode("\n     Exercise Complete\n   ");
           dom.appendChild(el1, el2);
           dom.appendChild(el0, el1);
           var el1 = dom.createTextNode("\n");
@@ -858,19 +810,13 @@ define("ga-wdi-boston.ember-auth/components/exercise-display/template", ["export
         },
         buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
           var element0 = dom.childAt(fragment, [1]);
-          var element1 = dom.childAt(element0, [11]);
-          var element2 = dom.childAt(element0, [16]);
-          var morphs = new Array(7);
-          morphs[0] = dom.createMorphAt(dom.childAt(element0, [1]), 1, 1);
-          morphs[1] = dom.createMorphAt(dom.childAt(element0, [3]), 1, 1);
-          morphs[2] = dom.createMorphAt(dom.childAt(element0, [5]), 1, 1);
-          morphs[3] = dom.createMorphAt(dom.childAt(element0, [7]), 1, 1);
-          morphs[4] = dom.createMorphAt(dom.childAt(element0, [9]), 1, 1);
-          morphs[5] = dom.createElementMorph(element1);
-          morphs[6] = dom.createElementMorph(element2);
+          var element1 = dom.childAt(fragment, [6]);
+          var morphs = new Array(2);
+          morphs[0] = dom.createElementMorph(element0);
+          morphs[1] = dom.createElementMorph(element1);
           return morphs;
         },
-        statements: [["content", "exercise.name", ["loc", [null, [13, 36], [13, 53]]]], ["content", "exercise.description", ["loc", [null, [14, 19], [14, 43]]]], ["content", "exercise.duration", ["loc", [null, [15, 16], [15, 37]]]], ["content", "exercise.category", ["loc", [null, [16, 16], [16, 37]]]], ["content", "exercise.user.email", ["loc", [null, [17, 16], [17, 39]]]], ["element", "action", ["delete"], [], ["loc", [null, [18, 45], [18, 64]]]], ["element", "action", ["done"], [], ["loc", [null, [22, 47], [22, 64]]]]],
+        statements: [["element", "action", ["delete"], [], ["loc", [null, [10, 45], [10, 64]]]], ["element", "action", ["done"], [], ["loc", [null, [14, 47], [14, 64]]]]],
         locals: [],
         templates: []
       };
@@ -888,7 +834,7 @@ define("ga-wdi-boston.ember-auth/components/exercise-display/template", ["export
             "column": 0
           },
           "end": {
-            "line": 29,
+            "line": 20,
             "column": 0
           }
         },
@@ -955,12 +901,12 @@ define("ga-wdi-boston.ember-auth/components/exercise-display/template", ["export
         var el4 = dom.createComment("");
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
-        var el3 = dom.createTextNode("\n    ");
+        var el3 = dom.createTextNode("\n");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createComment("");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n");
-        dom.appendChild(el1, el2);
-        var el2 = dom.createComment("");
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
         var el1 = dom.createTextNode("\n");
@@ -968,19 +914,18 @@ define("ga-wdi-boston.ember-auth/components/exercise-display/template", ["export
         return el0;
       },
       buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
-        var element3 = dom.childAt(fragment, [0]);
-        var element4 = dom.childAt(element3, [1]);
+        var element2 = dom.childAt(fragment, [0, 1]);
         var morphs = new Array(7);
-        morphs[0] = dom.createMorphAt(dom.childAt(element4, [1]), 1, 1);
-        morphs[1] = dom.createMorphAt(dom.childAt(element4, [3]), 1, 1);
-        morphs[2] = dom.createMorphAt(dom.childAt(element4, [5]), 1, 1);
-        morphs[3] = dom.createMorphAt(dom.childAt(element4, [7]), 1, 1);
-        morphs[4] = dom.createMorphAt(dom.childAt(element4, [9]), 1, 1);
-        morphs[5] = dom.createMorphAt(dom.childAt(element4, [11]), 1, 1);
-        morphs[6] = dom.createMorphAt(element3, 3, 3);
+        morphs[0] = dom.createMorphAt(dom.childAt(element2, [1]), 1, 1);
+        morphs[1] = dom.createMorphAt(dom.childAt(element2, [3]), 1, 1);
+        morphs[2] = dom.createMorphAt(dom.childAt(element2, [5]), 1, 1);
+        morphs[3] = dom.createMorphAt(dom.childAt(element2, [7]), 1, 1);
+        morphs[4] = dom.createMorphAt(dom.childAt(element2, [9]), 1, 1);
+        morphs[5] = dom.createMorphAt(dom.childAt(element2, [11]), 1, 1);
+        morphs[6] = dom.createMorphAt(element2, 13, 13);
         return morphs;
       },
-      statements: [["content", "exercise.name", ["loc", [null, [4, 37], [4, 54]]]], ["content", "exercise.description", ["loc", [null, [5, 21], [5, 45]]]], ["content", "exercise.duration", ["loc", [null, [6, 18], [6, 39]]]], ["content", "exercise.category", ["loc", [null, [7, 18], [7, 39]]]], ["content", "exercise.done", ["loc", [null, [8, 14], [8, 31]]]], ["content", "exercise.user.email", ["loc", [null, [9, 18], [9, 41]]]], ["block", "if", [["get", "exercise.editable", ["loc", [null, [11, 7], [11, 24]]]]], [], 0, null, ["loc", [null, [11, 1], [26, 7]]]]],
+      statements: [["content", "exercise.name", ["loc", [null, [3, 37], [3, 54]]]], ["content", "exercise.description", ["loc", [null, [4, 21], [4, 45]]]], ["content", "exercise.duration", ["loc", [null, [5, 18], [5, 39]]]], ["content", "exercise.category", ["loc", [null, [6, 18], [6, 39]]]], ["content", "exercise.done", ["loc", [null, [7, 14], [7, 31]]]], ["content", "exercise.user.email", ["loc", [null, [8, 18], [8, 41]]]], ["block", "if", [["get", "exercise.editable", ["loc", [null, [9, 7], [9, 24]]]]], [], 0, null, ["loc", [null, [9, 1], [17, 7]]]]],
       locals: [],
       templates: [child0]
     };
@@ -1247,11 +1192,11 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
             "loc": {
               "source": null,
               "start": {
-                "line": 8,
+                "line": 7,
                 "column": 18
               },
               "end": {
-                "line": 8,
+                "line": 7,
                 "column": 60
               }
             },
@@ -1283,11 +1228,11 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
             "loc": {
               "source": null,
               "start": {
-                "line": 9,
+                "line": 8,
                 "column": 18
               },
               "end": {
-                "line": 9,
+                "line": 8,
                 "column": 64
               }
             },
@@ -1322,7 +1267,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
               "column": 14
             },
             "end": {
-              "line": 10,
+              "line": 9,
               "column": 14
             }
           },
@@ -1356,7 +1301,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           morphs[1] = dom.createMorphAt(dom.childAt(fragment, [3]), 0, 0);
           return morphs;
         },
-        statements: [["block", "link-to", ["exercises"], [], 0, null, ["loc", [null, [8, 18], [8, 72]]]], ["block", "link-to", ["exercises/new"], [], 1, null, ["loc", [null, [9, 18], [9, 76]]]]],
+        statements: [["block", "link-to", ["exercises"], [], 0, null, ["loc", [null, [7, 18], [7, 72]]]], ["block", "link-to", ["exercises/new"], [], 1, null, ["loc", [null, [8, 18], [8, 76]]]]],
         locals: [],
         templates: [child0, child1]
       };
@@ -1370,11 +1315,11 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
             "loc": {
               "source": null,
               "start": {
-                "line": 12,
+                "line": 11,
                 "column": 18
               },
               "end": {
-                "line": 12,
+                "line": 11,
                 "column": 63
               }
             },
@@ -1405,11 +1350,11 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           "loc": {
             "source": null,
             "start": {
-              "line": 11,
+              "line": 10,
               "column": 14
             },
             "end": {
-              "line": 14,
+              "line": 13,
               "column": 14
             }
           },
@@ -1447,7 +1392,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           morphs[1] = dom.createElementMorph(element0);
           return morphs;
         },
-        statements: [["block", "link-to", ["change-password"], [], 0, null, ["loc", [null, [12, 18], [12, 75]]]], ["element", "action", ["signOut"], [], ["loc", [null, [13, 30], [13, 50]]]]],
+        statements: [["block", "link-to", ["change-password"], [], 0, null, ["loc", [null, [11, 18], [11, 75]]]], ["element", "action", ["signOut"], [], ["loc", [null, [12, 30], [12, 50]]]]],
         locals: [],
         templates: [child0]
       };
@@ -1461,11 +1406,11 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
             "loc": {
               "source": null,
               "start": {
-                "line": 15,
+                "line": 14,
                 "column": 18
               },
               "end": {
-                "line": 15,
+                "line": 14,
                 "column": 47
               }
             },
@@ -1497,11 +1442,11 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
             "loc": {
               "source": null,
               "start": {
-                "line": 16,
+                "line": 15,
                 "column": 18
               },
               "end": {
-                "line": 16,
+                "line": 15,
                 "column": 47
               }
             },
@@ -1532,11 +1477,11 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           "loc": {
             "source": null,
             "start": {
-              "line": 14,
+              "line": 13,
               "column": 14
             },
             "end": {
-              "line": 17,
+              "line": 16,
               "column": 14
             }
           },
@@ -1570,7 +1515,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           morphs[1] = dom.createMorphAt(dom.childAt(fragment, [3]), 0, 0);
           return morphs;
         },
-        statements: [["block", "link-to", ["sign-up"], [], 0, null, ["loc", [null, [15, 18], [15, 59]]]], ["block", "link-to", ["sign-in"], [], 1, null, ["loc", [null, [16, 18], [16, 59]]]]],
+        statements: [["block", "link-to", ["sign-up"], [], 0, null, ["loc", [null, [14, 18], [14, 59]]]], ["block", "link-to", ["sign-in"], [], 1, null, ["loc", [null, [15, 18], [15, 59]]]]],
         locals: [],
         templates: [child0, child1]
       };
@@ -1583,11 +1528,11 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           "loc": {
             "source": null,
             "start": {
-              "line": 28,
+              "line": 27,
               "column": 0
             },
             "end": {
-              "line": 30,
+              "line": 29,
               "column": 0
             }
           },
@@ -1612,7 +1557,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           morphs[0] = dom.createMorphAt(fragment, 1, 1, contextualElement);
           return morphs;
         },
-        statements: [["inline", "flash-message", [], ["flash", ["subexpr", "@mut", [["get", "flash", ["loc", [null, [29, 24], [29, 29]]]]], [], []]], ["loc", [null, [29, 2], [29, 31]]]]],
+        statements: [["inline", "flash-message", [], ["flash", ["subexpr", "@mut", [["get", "flash", ["loc", [null, [28, 24], [28, 29]]]]], [], []]], ["loc", [null, [28, 2], [28, 31]]]]],
         locals: ["flash"],
         templates: []
       };
@@ -1631,7 +1576,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
             "column": 0
           },
           "end": {
-            "line": 35,
+            "line": 34,
             "column": 0
           }
         },
@@ -1723,7 +1668,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
         morphs[3] = dom.createMorphAt(dom.childAt(fragment, [6]), 1, 1);
         return morphs;
       },
-      statements: [["block", "if", [["get", "isAuthenticated", ["loc", [null, [6, 20], [6, 35]]]]], [], 0, null, ["loc", [null, [6, 14], [10, 21]]]], ["block", "if", [["get", "isAuthenticated", ["loc", [null, [11, 20], [11, 35]]]]], [], 1, 2, ["loc", [null, [11, 14], [17, 21]]]], ["block", "each", [["get", "flashMessages.queue", ["loc", [null, [28, 8], [28, 27]]]]], [], 3, null, ["loc", [null, [28, 0], [30, 9]]]], ["content", "outlet", ["loc", [null, [33, 2], [33, 12]]]]],
+      statements: [["block", "if", [["get", "isAuthenticated", ["loc", [null, [6, 20], [6, 35]]]]], [], 0, null, ["loc", [null, [6, 14], [9, 21]]]], ["block", "if", [["get", "isAuthenticated", ["loc", [null, [10, 20], [10, 35]]]]], [], 1, 2, ["loc", [null, [10, 14], [16, 21]]]], ["block", "each", [["get", "flashMessages.queue", ["loc", [null, [27, 8], [27, 27]]]]], [], 3, null, ["loc", [null, [27, 0], [29, 9]]]], ["content", "outlet", ["loc", [null, [32, 2], [32, 12]]]]],
       locals: [],
       templates: [child0, child1, child2, child3]
     };
@@ -2150,7 +2095,6 @@ define('ga-wdi-boston.ember-auth/exercise/route', ['exports', 'ember'], function
 
       deleteExercise: function deleteExercise(exercise) {
         return exercise.destroyRecord();
-        // .then(() => this.transitionTo('exercises'));
       },
       // this is the action which sends the data. This is what handles the
       //form data. This communicated to the DS store and creates a new instance
@@ -2264,8 +2208,6 @@ define("ga-wdi-boston.ember-auth/exercises/new/template", ["exports"], function 
       hasRendered: false,
       buildFragment: function buildFragment(dom) {
         var el0 = dom.createDocumentFragment();
-        var el1 = dom.createTextNode("\n");
-        dom.appendChild(el0, el1);
         var el1 = dom.createComment("");
         dom.appendChild(el0, el1);
         var el1 = dom.createTextNode("\n");
@@ -2274,7 +2216,8 @@ define("ga-wdi-boston.ember-auth/exercises/new/template", ["exports"], function 
       },
       buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
         var morphs = new Array(1);
-        morphs[0] = dom.createMorphAt(fragment, 1, 1, contextualElement);
+        morphs[0] = dom.createMorphAt(fragment, 0, 0, contextualElement);
+        dom.insertBoundary(fragment, 0);
         return morphs;
       },
       statements: [["inline", "exercise-new", [], ["exercise", ["subexpr", "@mut", [["get", "model", ["loc", [null, [2, 24], [2, 29]]]]], [], []], "createExercise", "saveExercise"], ["loc", [null, [2, 0], [2, 61]]]]],
@@ -2310,19 +2253,16 @@ define("ga-wdi-boston.ember-auth/exercises/template", ["exports"], function (exp
     var child0 = (function () {
       return {
         meta: {
-          "fragmentReason": {
-            "name": "missing-wrapper",
-            "problems": ["wrong-type"]
-          },
+          "fragmentReason": false,
           "revision": "Ember@2.5.1",
           "loc": {
             "source": null,
             "start": {
-              "line": 1,
+              "line": 3,
               "column": 0
             },
             "end": {
-              "line": 3,
+              "line": 5,
               "column": 0
             }
           },
@@ -2346,7 +2286,7 @@ define("ga-wdi-boston.ember-auth/exercises/template", ["exports"], function (exp
           dom.insertBoundary(fragment, 0);
           return morphs;
         },
-        statements: [["inline", "exercise-display", [], ["exercise", ["subexpr", "@mut", [["get", "exercise", ["loc", [null, [2, 28], [2, 36]]]]], [], []], "delete", "deleteExercise", "done", "toggleDone", "save", "createExercise", "changeAction", "changeAction"], ["loc", [null, [2, 0], [2, 130]]]]],
+        statements: [["inline", "exercise-display", [], ["exercise", ["subexpr", "@mut", [["get", "exercise", ["loc", [null, [4, 28], [4, 36]]]]], [], []], "delete", "deleteExercise", "done", "toggleDone", "save", "createExercise", "changeAction", "changeAction"], ["loc", [null, [4, 0], [4, 130]]]]],
         locals: ["exercise"],
         templates: []
       };
@@ -2365,7 +2305,7 @@ define("ga-wdi-boston.ember-auth/exercises/template", ["exports"], function (exp
             "column": 0
           },
           "end": {
-            "line": 4,
+            "line": 6,
             "column": 0
           }
         },
@@ -2388,7 +2328,7 @@ define("ga-wdi-boston.ember-auth/exercises/template", ["exports"], function (exp
         dom.insertBoundary(fragment, null);
         return morphs;
       },
-      statements: [["block", "each", [["get", "model", ["loc", [null, [1, 8], [1, 13]]]]], [], 0, null, ["loc", [null, [1, 0], [3, 9]]]]],
+      statements: [["block", "each", [["get", "model", ["loc", [null, [3, 8], [3, 13]]]]], [], 0, null, ["loc", [null, [3, 0], [5, 9]]]]],
       locals: [],
       templates: [child0]
     };
@@ -2421,12 +2361,12 @@ define("ga-wdi-boston.ember-auth/index/template", ["exports"], function (exports
           "loc": {
             "source": null,
             "start": {
-              "line": 5,
-              "column": 89
+              "line": 6,
+              "column": 95
             },
             "end": {
-              "line": 5,
-              "column": 119
+              "line": 6,
+              "column": 125
             }
           },
           "moduleName": "ga-wdi-boston.ember-auth/index/template.hbs"
@@ -2457,11 +2397,11 @@ define("ga-wdi-boston.ember-auth/index/template", ["exports"], function (exports
           "loc": {
             "source": null,
             "start": {
-              "line": 6,
+              "line": 8,
               "column": 47
             },
             "end": {
-              "line": 6,
+              "line": 8,
               "column": 77
             }
           },
@@ -2499,7 +2439,7 @@ define("ga-wdi-boston.ember-auth/index/template", ["exports"], function (exports
             "column": 0
           },
           "end": {
-            "line": 10,
+            "line": 12,
             "column": 0
           }
         },
@@ -2526,9 +2466,11 @@ define("ga-wdi-boston.ember-auth/index/template", ["exports"], function (exports
         dom.setAttribute(el2, "class", "greeting-body");
         var el3 = dom.createTextNode("Thank You for visiting Play Log. To start your journey click ");
         dom.appendChild(el2, el3);
-        var el3 = dom.createComment("");
+        var el3 = dom.createElement("span");
+        var el4 = dom.createComment("");
+        dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
-        var el3 = dom.createTextNode("\n  Or Checkout out how other users like to stay ");
+        var el3 = dom.createTextNode("\n\n  Or Checkout out how other users like to stay ");
         dom.appendChild(el2, el3);
         var el3 = dom.createComment("");
         dom.appendChild(el2, el3);
@@ -2554,11 +2496,11 @@ define("ga-wdi-boston.ember-auth/index/template", ["exports"], function (exports
       buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
         var element0 = dom.childAt(fragment, [2, 1]);
         var morphs = new Array(2);
-        morphs[0] = dom.createMorphAt(element0, 1, 1);
+        morphs[0] = dom.createMorphAt(dom.childAt(element0, [1]), 0, 0);
         morphs[1] = dom.createMorphAt(element0, 3, 3);
         return morphs;
       },
-      statements: [["block", "link-to", ["sign-in"], [], 0, null, ["loc", [null, [5, 89], [5, 131]]]], ["block", "link-to", ["exercises"], [], 1, null, ["loc", [null, [6, 47], [6, 89]]]]],
+      statements: [["block", "link-to", ["sign-in"], [], 0, null, ["loc", [null, [6, 95], [6, 137]]]], ["block", "link-to", ["exercises"], [], 1, null, ["loc", [null, [8, 47], [8, 89]]]]],
       locals: [],
       templates: [child0, child1]
     };
@@ -3133,7 +3075,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ga-wdi-boston.ember-auth/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+5d8ae68a"});
+  require("ga-wdi-boston.ember-auth/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+78a2cb2c"});
 }
 
 /* jshint ignore:end */
