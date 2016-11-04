@@ -1,14 +1,14 @@
 .greeting-container {
+  background-color: $index-container;
   border-radius: 10px;
-  background-color: #464646;
-  opacity: .3;
-  width: 65%;
   margin: 8%;
+  opacity: .3;
   padding: 3%;
-  
+  width: 65%;
 }
+
 .greeting-body {
+  color: $pure-white;
+  font-weight: 300;
   text-align: center;
-    color: #fff;
-      font-weight: 300;
 }

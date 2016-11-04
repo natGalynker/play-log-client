@@ -1,5 +1,4 @@
 <div class="exercise-container">
-  {{!-- <div class="row"> --}}
 <div class="col-md-3 col-lg-3 exercise-holder item">
       <h2 class='exercise-name'>Name:{{exercise.name}}</h2>
       <p>Description:{{exercise.description}}</p>
@@ -7,22 +6,14 @@
       <p>Category:{{exercise.category}}</p>
       <p>Done:{{exercise.done}}</p>
       <p>Added By:{{exercise.user.email}}</p>
-    </div>
  {{#if exercise.editable}}
- <div class="col-md-3 col-lg-3 exercise-editable-holder item">
-    <h2 class ='exercise-name'>Name:{{exercise.name}}</h2>
-    <p>Description:{{exercise.description}}</p>
-    <p>Duration:{{exercise.duration}}</p>
-    <p>Category:{{exercise.category}}</p>
-    <p>Added By:{{exercise.user.email}}</p>
  <button type="button" class="btn custom-btn"{{action 'delete'}}>
-   delete
+  Delete Exercise
  </button>
  <br><span></span>
    <button type="button" class="btn custom-btn"{{action 'done'}}>
      Exercise Complete
    </button>
- </div>
 {{/if}}
-{{!-- </div> --}}
+</div>
 </div>
