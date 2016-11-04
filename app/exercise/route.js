@@ -12,7 +12,6 @@ export default Ember.Route.extend({
 
     deleteExercise(exercise){
       return exercise.destroyRecord();
-      // .then(() => this.transitionTo('exercises'));
     },
     // this is the action which sends the data. This is what handles the
     //form data. This communicated to the DS store and creates a new instance
