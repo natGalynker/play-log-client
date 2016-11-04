@@ -766,11 +766,11 @@ define("ga-wdi-boston.ember-auth/components/exercise-display/template", ["export
           "loc": {
             "source": null,
             "start": {
-              "line": 8,
-              "column": 0
+              "line": 11,
+              "column": 1
             },
             "end": {
-              "line": 15,
+              "line": 26,
               "column": 0
             }
           },
@@ -784,18 +784,72 @@ define("ga-wdi-boston.ember-auth/components/exercise-display/template", ["export
           var el0 = dom.createDocumentFragment();
           var el1 = dom.createTextNode(" ");
           dom.appendChild(el0, el1);
-          var el1 = dom.createElement("button");
-          dom.setAttribute(el1, "type", "button");
-          dom.setAttribute(el1, "class", "btn btn-danger");
-          var el2 = dom.createTextNode("\n   delete\n ");
+          var el1 = dom.createElement("div");
+          dom.setAttribute(el1, "class", "col-md-3 col-lg-3 exercise-editable-holder item");
+          var el2 = dom.createTextNode("\n    ");
           dom.appendChild(el1, el2);
-          dom.appendChild(el0, el1);
-          var el1 = dom.createTextNode("\n   ");
-          dom.appendChild(el0, el1);
-          var el1 = dom.createElement("button");
-          dom.setAttribute(el1, "type", "button");
-          dom.setAttribute(el1, "class", "btn btn-info");
-          var el2 = dom.createTextNode("\n     Exercise Complete\n   ");
+          var el2 = dom.createElement("h2");
+          dom.setAttribute(el2, "class", "exercise-name");
+          var el3 = dom.createTextNode("Name:");
+          dom.appendChild(el2, el3);
+          var el3 = dom.createComment("");
+          dom.appendChild(el2, el3);
+          dom.appendChild(el1, el2);
+          var el2 = dom.createTextNode("\n    ");
+          dom.appendChild(el1, el2);
+          var el2 = dom.createElement("p");
+          var el3 = dom.createTextNode("Description:");
+          dom.appendChild(el2, el3);
+          var el3 = dom.createComment("");
+          dom.appendChild(el2, el3);
+          dom.appendChild(el1, el2);
+          var el2 = dom.createTextNode("\n    ");
+          dom.appendChild(el1, el2);
+          var el2 = dom.createElement("p");
+          var el3 = dom.createTextNode("Duration:");
+          dom.appendChild(el2, el3);
+          var el3 = dom.createComment("");
+          dom.appendChild(el2, el3);
+          dom.appendChild(el1, el2);
+          var el2 = dom.createTextNode("\n    ");
+          dom.appendChild(el1, el2);
+          var el2 = dom.createElement("p");
+          var el3 = dom.createTextNode("Category:");
+          dom.appendChild(el2, el3);
+          var el3 = dom.createComment("");
+          dom.appendChild(el2, el3);
+          dom.appendChild(el1, el2);
+          var el2 = dom.createTextNode("\n    ");
+          dom.appendChild(el1, el2);
+          var el2 = dom.createElement("p");
+          var el3 = dom.createTextNode("Added By:");
+          dom.appendChild(el2, el3);
+          var el3 = dom.createComment("");
+          dom.appendChild(el2, el3);
+          dom.appendChild(el1, el2);
+          var el2 = dom.createTextNode("\n ");
+          dom.appendChild(el1, el2);
+          var el2 = dom.createElement("button");
+          dom.setAttribute(el2, "type", "button");
+          dom.setAttribute(el2, "class", "btn custom-btn");
+          var el3 = dom.createTextNode("\n   delete\n ");
+          dom.appendChild(el2, el3);
+          dom.appendChild(el1, el2);
+          var el2 = dom.createTextNode("\n ");
+          dom.appendChild(el1, el2);
+          var el2 = dom.createElement("br");
+          dom.appendChild(el1, el2);
+          var el2 = dom.createElement("span");
+          dom.appendChild(el1, el2);
+          var el2 = dom.createTextNode("\n   ");
+          dom.appendChild(el1, el2);
+          var el2 = dom.createElement("button");
+          dom.setAttribute(el2, "type", "button");
+          dom.setAttribute(el2, "class", "btn custom-btn");
+          var el3 = dom.createTextNode("\n     Exercise Complete\n   ");
+          dom.appendChild(el2, el3);
+          dom.appendChild(el1, el2);
+          var el2 = dom.createTextNode("\n ");
           dom.appendChild(el1, el2);
           dom.appendChild(el0, el1);
           var el1 = dom.createTextNode("\n");
@@ -804,13 +858,19 @@ define("ga-wdi-boston.ember-auth/components/exercise-display/template", ["export
         },
         buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
           var element0 = dom.childAt(fragment, [1]);
-          var element1 = dom.childAt(fragment, [3]);
-          var morphs = new Array(2);
-          morphs[0] = dom.createElementMorph(element0);
-          morphs[1] = dom.createElementMorph(element1);
+          var element1 = dom.childAt(element0, [11]);
+          var element2 = dom.childAt(element0, [16]);
+          var morphs = new Array(7);
+          morphs[0] = dom.createMorphAt(dom.childAt(element0, [1]), 1, 1);
+          morphs[1] = dom.createMorphAt(dom.childAt(element0, [3]), 1, 1);
+          morphs[2] = dom.createMorphAt(dom.childAt(element0, [5]), 1, 1);
+          morphs[3] = dom.createMorphAt(dom.childAt(element0, [7]), 1, 1);
+          morphs[4] = dom.createMorphAt(dom.childAt(element0, [9]), 1, 1);
+          morphs[5] = dom.createElementMorph(element1);
+          morphs[6] = dom.createElementMorph(element2);
           return morphs;
         },
-        statements: [["element", "action", ["delete"], [], ["loc", [null, [9, 45], [9, 64]]]], ["element", "action", ["done"], [], ["loc", [null, [12, 45], [12, 62]]]]],
+        statements: [["content", "exercise.name", ["loc", [null, [13, 36], [13, 53]]]], ["content", "exercise.description", ["loc", [null, [14, 19], [14, 43]]]], ["content", "exercise.duration", ["loc", [null, [15, 16], [15, 37]]]], ["content", "exercise.category", ["loc", [null, [16, 16], [16, 37]]]], ["content", "exercise.user.email", ["loc", [null, [17, 16], [17, 39]]]], ["element", "action", ["delete"], [], ["loc", [null, [18, 45], [18, 64]]]], ["element", "action", ["done"], [], ["loc", [null, [22, 47], [22, 64]]]]],
         locals: [],
         templates: []
       };
@@ -818,8 +878,7 @@ define("ga-wdi-boston.ember-auth/components/exercise-display/template", ["export
     return {
       meta: {
         "fragmentReason": {
-          "name": "missing-wrapper",
-          "problems": ["multiple-nodes", "wrong-type"]
+          "name": "triple-curlies"
         },
         "revision": "Ember@2.5.1",
         "loc": {
@@ -829,7 +888,7 @@ define("ga-wdi-boston.ember-auth/components/exercise-display/template", ["export
             "column": 0
           },
           "end": {
-            "line": 16,
+            "line": 29,
             "column": 0
           }
         },
@@ -841,66 +900,87 @@ define("ga-wdi-boston.ember-auth/components/exercise-display/template", ["export
       hasRendered: false,
       buildFragment: function buildFragment(dom) {
         var el0 = dom.createDocumentFragment();
-        var el1 = dom.createElement("h2");
-        var el2 = dom.createTextNode("Name:");
+        var el1 = dom.createElement("div");
+        dom.setAttribute(el1, "class", "exercise-container");
+        var el2 = dom.createTextNode("\n");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("div");
+        dom.setAttribute(el2, "class", "col-md-3 col-lg-3 exercise-holder item");
+        var el3 = dom.createTextNode("\n      ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("h2");
+        dom.setAttribute(el3, "class", "exercise-name");
+        var el4 = dom.createTextNode("Name:");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createComment("");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createTextNode("\n      ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("p");
+        var el4 = dom.createTextNode("Description:");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createComment("");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createTextNode("\n      ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("p");
+        var el4 = dom.createTextNode("Duration:");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createComment("");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createTextNode("\n      ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("p");
+        var el4 = dom.createTextNode("Category:");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createComment("");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createTextNode("\n      ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("p");
+        var el4 = dom.createTextNode("Done:");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createComment("");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createTextNode("\n      ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("p");
+        var el4 = dom.createTextNode("Added By:");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createComment("");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createTextNode("\n    ");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createTextNode("\n");
         dom.appendChild(el1, el2);
         var el2 = dom.createComment("");
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
         var el1 = dom.createTextNode("\n");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createElement("h4");
-        var el2 = dom.createTextNode("Description:");
-        dom.appendChild(el1, el2);
-        var el2 = dom.createComment("");
-        dom.appendChild(el1, el2);
-        dom.appendChild(el0, el1);
-        var el1 = dom.createTextNode("\n");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createElement("h4");
-        var el2 = dom.createTextNode("Duration:");
-        dom.appendChild(el1, el2);
-        var el2 = dom.createComment("");
-        dom.appendChild(el1, el2);
-        dom.appendChild(el0, el1);
-        var el1 = dom.createTextNode("\n");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createElement("h4");
-        var el2 = dom.createTextNode("Category:");
-        dom.appendChild(el1, el2);
-        var el2 = dom.createComment("");
-        dom.appendChild(el1, el2);
-        dom.appendChild(el0, el1);
-        var el1 = dom.createTextNode("\n");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createElement("h4");
-        var el2 = dom.createTextNode("Done:");
-        dom.appendChild(el1, el2);
-        var el2 = dom.createComment("");
-        dom.appendChild(el1, el2);
-        dom.appendChild(el0, el1);
-        var el1 = dom.createTextNode("\n");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createElement("hr");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createTextNode("\n\n");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createComment("");
         dom.appendChild(el0, el1);
         return el0;
       },
       buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
-        var morphs = new Array(6);
-        morphs[0] = dom.createMorphAt(dom.childAt(fragment, [0]), 1, 1);
-        morphs[1] = dom.createMorphAt(dom.childAt(fragment, [2]), 1, 1);
-        morphs[2] = dom.createMorphAt(dom.childAt(fragment, [4]), 1, 1);
-        morphs[3] = dom.createMorphAt(dom.childAt(fragment, [6]), 1, 1);
-        morphs[4] = dom.createMorphAt(dom.childAt(fragment, [8]), 1, 1);
-        morphs[5] = dom.createMorphAt(fragment, 12, 12, contextualElement);
-        dom.insertBoundary(fragment, null);
+        var element3 = dom.childAt(fragment, [0]);
+        var element4 = dom.childAt(element3, [1]);
+        var morphs = new Array(7);
+        morphs[0] = dom.createMorphAt(dom.childAt(element4, [1]), 1, 1);
+        morphs[1] = dom.createMorphAt(dom.childAt(element4, [3]), 1, 1);
+        morphs[2] = dom.createMorphAt(dom.childAt(element4, [5]), 1, 1);
+        morphs[3] = dom.createMorphAt(dom.childAt(element4, [7]), 1, 1);
+        morphs[4] = dom.createMorphAt(dom.childAt(element4, [9]), 1, 1);
+        morphs[5] = dom.createMorphAt(dom.childAt(element4, [11]), 1, 1);
+        morphs[6] = dom.createMorphAt(element3, 3, 3);
         return morphs;
       },
-      statements: [["content", "exercise.name", ["loc", [null, [1, 9], [1, 26]]]], ["content", "exercise.description", ["loc", [null, [2, 16], [2, 40]]]], ["content", "exercise.duration", ["loc", [null, [3, 13], [3, 34]]]], ["content", "exercise.category", ["loc", [null, [4, 13], [4, 34]]]], ["content", "exercise.done", ["loc", [null, [5, 9], [5, 26]]]], ["block", "if", [["get", "exercise.editable", ["loc", [null, [8, 6], [8, 23]]]]], [], 0, null, ["loc", [null, [8, 0], [15, 7]]]]],
+      statements: [["content", "exercise.name", ["loc", [null, [4, 37], [4, 54]]]], ["content", "exercise.description", ["loc", [null, [5, 21], [5, 45]]]], ["content", "exercise.duration", ["loc", [null, [6, 18], [6, 39]]]], ["content", "exercise.category", ["loc", [null, [7, 18], [7, 39]]]], ["content", "exercise.done", ["loc", [null, [8, 14], [8, 31]]]], ["content", "exercise.user.email", ["loc", [null, [9, 18], [9, 41]]]], ["block", "if", [["get", "exercise.editable", ["loc", [null, [11, 7], [11, 24]]]]], [], 0, null, ["loc", [null, [11, 1], [26, 7]]]]],
       locals: [],
       templates: [child0]
     };
@@ -2344,6 +2424,9 @@ define('ga-wdi-boston.ember-auth/helpers/pluralize', ['exports', 'ember-inflecto
 });
 define('ga-wdi-boston.ember-auth/helpers/singularize', ['exports', 'ember-inflector/lib/helpers/singularize'], function (exports, _emberInflectorLibHelpersSingularize) {
   exports['default'] = _emberInflectorLibHelpersSingularize['default'];
+});
+define('ga-wdi-boston.ember-auth/index/route', ['exports', 'ember'], function (exports, _ember) {
+  exports['default'] = _ember['default'].Route.extend({});
 });
 define("ga-wdi-boston.ember-auth/initializers/active-model-adapter", ["exports", "active-model-adapter", "active-model-adapter/active-model-serializer"], function (exports, _activeModelAdapter, _activeModelAdapterActiveModelSerializer) {
   exports["default"] = {
