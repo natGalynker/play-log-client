@@ -12,7 +12,7 @@ $background-green: #7cb875;
   background-size: cover;
   height: 100%;
   padding-top: 0;
-  width: auto;
+  width: 100%;
 }
 
 .exercise-holder {
@@ -72,4 +72,17 @@ $background-green: #7cb875;
   background-color: #d3ffce !important;
   border-radius: 25px;
   margin-bottom: 5%;
+}
+
+
+@media only screen and (min-width: 611px) and (max-width: 2000px) {
+  .container-fluid {
+    background-color: $background-green;
+    background-image: url('https://i.imgur.com/I0vwZdt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 0;
+    width: auto;
+  }
 }
