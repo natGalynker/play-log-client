@@ -1,69 +1,67 @@
+
 .container-fluid {
-  background-color: #7cb875;
-  background-image: url('http://i.imgur.com/I0vwZdt.jpg');
+  background-color: $background-green;
+  background-image: url('i.imgur.com/I0vwZdt.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
   padding-top: 0;
   width: auto;
-  height: 100%;
 }
 
 .exercise-holder {
-background-color: pink;
-margin: 2%;
-margin-bottom: 2% !important;
-border-radius: 20px;
-padding-bottom: 5%;
-padding-top: 0;
-
-padding-left: 0;
-padding-right: 0;
-opacity: .7
-}
-.exercise-editable-holder {
-  background-color: pink;
-  margin: 2%;
+  background-color: $pink;
   border-radius: 20px;
+  margin: 2% !important;
+  opacity: .7;
+  padding: 0 0 5%;
+}
+
+.exercise-editable-holder {
+  background-color: $pink;
+  border-radius: 20px;
+  margin: 2%;
   padding-bottom: 5%;
 }
 
- .item {
-  //  margin-bottom: auto 2% !important;
-   text-align: center;
-   align-content: center;
- }
+.item {
+  align-content: center;
+  text-align: center;
+}
+
 .exercise-name {
-  background-color: red;
+  background-color: $red;
+  color: $pure-white;
   opacity: .3;
-  color: #fff;
-  width: 100%;
   padding-top: 0;
+  width: 100%;
 }
 
 .exercise-container {
   border-radius: 30px;
 }
- .intro-title {
-   text-align: center;
- }
 
- .intro-body {
-   text-align: center;
- }
+.intro-title {
+  text-align: center;
+}
 
- .intro-container {
-   background-color: #998799;
-   width: 82%;
-   opacity: .5;
- }
+.intro-body {
+  text-align: center;
+}
+
+.intro-container {
+  background-color: $heading-background;
+  opacity: .5;
+  width: 82%;
+}
 
 .patch-button {
   display: inline-block;
   height: auto;
 }
 
- .custom-btn {
-   background-color: #d3ffce !important;
-   border-radius: 25px;
-   margin-bottom: 5%;
- }
+.custom-btn {
+  background-color: #d3ffce !important;
+  border-radius: 25px;
+  margin-bottom: 5%;
+}
