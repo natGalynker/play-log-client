@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'play-log',
+    modulePrefix: 'ga-wdi-boston.ember-auth',
     environment: environment,
     // apiHost: 'http://localhost:3000/',
     baseURL: '/',

@@ -1,6 +1,6 @@
 import Ember from 'ember';
 import AjaxService from 'ember-ajax/services/ajax';
-// import ENV from 'play-log/config/environment';
+// import ENV from 'Play-Log/config/environment';
 
 export default AjaxService.extend({
   // host: ENV.apiHost,

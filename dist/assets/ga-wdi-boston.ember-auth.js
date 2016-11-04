@@ -7,7 +7,7 @@
 /* jshint ignore:end */
 
 define('ga-wdi-boston.ember-auth/ajax/service', ['exports', 'ember', 'ember-ajax/services/ajax'], function (exports, _ember, _emberAjaxServicesAjax) {
-  // import ENV from 'play-log/config/environment';
+  // import ENV from 'Play-Log/config/environment';
 
   exports['default'] = _emberAjaxServicesAjax['default'].extend({
     // host: ENV.apiHost,
@@ -43,7 +43,7 @@ define('ga-wdi-boston.ember-auth/app', ['exports', 'ember', 'ga-wdi-boston.ember
   exports['default'] = App;
 });
 define('ga-wdi-boston.ember-auth/application/adapter', ['exports', 'ember', 'active-model-adapter'], function (exports, _ember, _activeModelAdapter) {
-  // import ENV from 'play-log/config/environment';
+  // import ENV from 'Play-Log/config/environment';
 
   exports['default'] = _activeModelAdapter['default'].extend({
     auth: _ember['default'].inject.service(),
@@ -3051,8 +3051,8 @@ define("ga-wdi-boston.ember-auth/users/template", ["exports"], function (exports
 
 /* jshint ignore:start */
 
-define('play-log/config/environment', ['ember'], function(Ember) {
-  var prefix = 'play-log';
+define('ga-wdi-boston.ember-auth/config/environment', ['ember'], function(Ember) {
+  var prefix = 'ga-wdi-boston.ember-auth';
 /* jshint ignore:start */
 
 try {
@@ -3075,7 +3075,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("play-log/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+772a5928"});
+  require("ga-wdi-boston.ember-auth/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+9be5421c"});
 }
 
 /* jshint ignore:end */
