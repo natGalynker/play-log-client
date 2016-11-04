@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'play-log',
     environment: environment,
-    apiHost: 'http://localhost:3000/',
+    // apiHost: 'http://localhost:3000/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

@@ -6,9 +6,11 @@
 
 /* jshint ignore:end */
 
-define('ga-wdi-boston.ember-auth/ajax/service', ['exports', 'ember', 'ember-ajax/services/ajax', 'play-log/config/environment'], function (exports, _ember, _emberAjaxServicesAjax, _playLogConfigEnvironment) {
+define('ga-wdi-boston.ember-auth/ajax/service', ['exports', 'ember', 'ember-ajax/services/ajax'], function (exports, _ember, _emberAjaxServicesAjax) {
+  // import ENV from 'play-log/config/environment';
+
   exports['default'] = _emberAjaxServicesAjax['default'].extend({
-    host: _playLogConfigEnvironment['default'].apiHost,
+    // host: ENV.apiHost,
     auth: _ember['default'].inject.service(),
     // host: ENV.apiHost,
     headers: _ember['default'].computed('auth.credentials.token', {
@@ -40,10 +42,12 @@ define('ga-wdi-boston.ember-auth/app', ['exports', 'ember', 'ga-wdi-boston.ember
 
   exports['default'] = App;
 });
-define('ga-wdi-boston.ember-auth/application/adapter', ['exports', 'ember', 'active-model-adapter', 'play-log/config/environment'], function (exports, _ember, _activeModelAdapter, _playLogConfigEnvironment) {
+define('ga-wdi-boston.ember-auth/application/adapter', ['exports', 'ember', 'active-model-adapter'], function (exports, _ember, _activeModelAdapter) {
+  // import ENV from 'play-log/config/environment';
+
   exports['default'] = _activeModelAdapter['default'].extend({
     auth: _ember['default'].inject.service(),
-    host: _playLogConfigEnvironment['default'].apiHost,
+    // host: ENV.apiHost,
     headers: _ember['default'].computed('auth.credentials.token', {
       get: function get() {
         var headers = {};
@@ -3071,7 +3075,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("play-log/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+fcb52104"});
+  require("play-log/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+772a5928"});
 }
 
 /* jshint ignore:end */
