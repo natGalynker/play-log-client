@@ -5,12 +5,16 @@ $heading-background: #998799;
 $background-green: #7cb875;
 
 
+html {
+  height: 100%;
+}
+
 .container-fluid {
   background-color: $background-green;
   background-image: url('https://i.imgur.com/I0vwZdt.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  min-height: 100%;
   padding-top: 0;
   width: 100%;
 }
@@ -20,7 +24,7 @@ $background-green: #7cb875;
   border-radius: 20px;
   margin: 2% !important;
   opacity: .7;
-  padding: 5%;
+  padding-bottom: 5%;
 }
 
 .exercise-editable-holder {
@@ -37,6 +41,7 @@ $background-green: #7cb875;
 
 .exercise-name {
   background-color: $red;
+  border-radius: 15px;
   color: $pure-white;
   opacity: .3;
   padding-top: 0;
