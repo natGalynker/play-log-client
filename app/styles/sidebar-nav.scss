@@ -1,25 +1,25 @@
 $purple-back: #000;
 $sidebar-color: #999;
-$purple-highligh: #353267;
+$purple-highlight: #353267;
 
 .wrapper.toggled {
   overflow: hidden;
-  padding-right: 450px;
+  padding-right: 350px;
 }
 
 .sidebar-wrapper {
   background: $purple-back;
   height: 100%;
-  margin-right: -450px;
+  margin-right: -350px;
   overflow-y: auto;
   position: fixed;
-  right: 450px;
+  right: 350px;
   width: 0;
   z-index: 1000;
 }
 
 .wrapper.toggled .sidebar-wrapper {
-  width: 450px;
+  width: 350px;
 }
 // Sidebar Styles
 .sidebar-nav {
@@ -28,12 +28,12 @@ $purple-highligh: #353267;
   padding: 0;
   position: absolute;
   top: 0;
-  width: 450px;
+  width: 350px;
 }
 
 .sidebar-nav li {
   font-size: 30px;
-  line-height: 50px;
+  line-height: 30px;
   margin-bottom: 10%;
   margin-top: 3%;
   text-align: center;
@@ -46,7 +46,7 @@ $purple-highligh: #353267;
 }
 
 .sidebar-nav li a:hover {
-  background-color: $purple-highligh;
+  background-color: $purple-highlight;
   color: $pure-white;
   text-decoration: none;
 }
@@ -65,7 +65,7 @@ $purple-highligh: #353267;
   }
 
   .sidebar-wrapper {
-    width: 450px;
+    width: 350px;
   }
 
   .wrapper.toggled .sidebar-wrapper {
