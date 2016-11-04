@@ -1,2 +1,79 @@
 @import 'bootstrap';
 @import 'bootstrap/theme';
+@import 'exercises';
+@import 'welcome';
+
+.wrapper.toggled {
+    padding-right: 450px;
+    overflow: hidden;
+}
+
+.sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 450px;
+    width: 0;
+    height: 100%;
+    margin-right: -450px;
+    overflow-y: auto;
+    background: #000;
+}
+
+.wrapper.toggled .sidebar-wrapper {
+    width: 450px;
+}
+
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 450px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: purple;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+@media(min-width:768px) {
+    .wrapper {
+        padding-right: 250px;
+    }
+
+    .wrapper.toggled {
+        padding-right: 0;
+    }
+
+    .sidebar-wrapper {
+        width: 450px;
+    }
+
+    .wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+}

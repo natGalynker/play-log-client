@@ -1,31 +1,26 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    {{navbar-header}}
+<div class="wrapper">
 
-    <div class="collapse navbar-collapse" id="navigation">
-      <ul class="nav navbar-nav">
-        {{#if isAuthenticated}}
-        {{!-- <li>{{#link-to "users"}}Users{{/link-to}}</li> --}}
-        <li>{{#link-to "exercises"}}View All Exercises{{/link-to}}</li>
-        <li>{{#link-to "exercises/new"}}Create An Exercise{{/link-to}}</li>
-        {{/if}}
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        {{#if isAuthenticated}}
-        <li>{{#link-to "change-password"}}Change Password{{/link-to}}</li>
-        <li><a href="#" {{action "signOut"}}>Sign Out</a></li>
-        {{else}}
-        <li>{{#link-to "sign-up"}}Sign Up{{/link-to}}</li>
-        <li>{{#link-to "sign-in"}}Sign In{{/link-to}}</li>
-        {{/if}}
-      </ul>
+    <!-- Sidebar -->
+    <div class="sidebar-wrapper">
+        <ul class="sidebar-nav">
+              {{#if isAuthenticated}}
+              {{!-- <li>{{#link-to "users"}}Users{{/link-to}}</li> --}}
+              <li>{{#link-to "exercises"}}View All Exercises{{/link-to}}</li>
+              <li>{{#link-to "exercises/new"}}Create An Exercise{{/link-to}}</li>
+              {{/if}}
+              {{#if isAuthenticated}}
+              <li>{{#link-to "change-password"}}Change Password{{/link-to}}</li>
+              <li><a href="#" {{action "signOut"}}>Sign Out</a></li>
+              {{else}}
+              <li>{{#link-to "sign-up"}}Sign Up{{/link-to}}</li>
+              <li>{{#link-to "sign-in"}}Sign In{{/link-to}}</li>
+              {{/if}}
+            </ul>
     </div>
   </div>
-</nav>
-
-<div class="Intro pull-center">
-<span><h1>Welcome to Play log!</h1></span>
-    <h3>A Place that You can make your own. A judgemnet free zone to store your
+<div class="intro-container">
+<span><h1 class="intro-title">Welcome to Play log!</h1></span>
+    <h3 class= "intro-body">A Place that You can make your own. A judgemnet free zone to store your
     exercises from the gym, to the mountains, to classes and even up in the air
   aerials and acrobatics. No need to be shy, come play!</h3>
 </div>
@@ -34,6 +29,6 @@
   {{flash-message flash=flash}}
 {{/each}}
 
-<div class="col-md-8 col-md-offset-2">
+<div class="col-md-8 col-md-offset-1 main">
   {{outlet}}
 </div>
