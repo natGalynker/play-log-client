@@ -1247,12 +1247,12 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
             "loc": {
               "source": null,
               "start": {
-                "line": 9,
-                "column": 12
+                "line": 8,
+                "column": 18
               },
               "end": {
-                "line": 9,
-                "column": 54
+                "line": 8,
+                "column": 60
               }
             },
             "moduleName": "ga-wdi-boston.ember-auth/components/my-application/template.hbs"
@@ -1283,12 +1283,12 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
             "loc": {
               "source": null,
               "start": {
-                "line": 10,
-                "column": 12
+                "line": 9,
+                "column": 18
               },
               "end": {
-                "line": 10,
-                "column": 58
+                "line": 9,
+                "column": 64
               }
             },
             "moduleName": "ga-wdi-boston.ember-auth/components/my-application/template.hbs"
@@ -1318,12 +1318,12 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           "loc": {
             "source": null,
             "start": {
-              "line": 7,
-              "column": 8
+              "line": 6,
+              "column": 14
             },
             "end": {
-              "line": 11,
-              "column": 8
+              "line": 10,
+              "column": 14
             }
           },
           "moduleName": "ga-wdi-boston.ember-auth/components/my-application/template.hbs"
@@ -1334,13 +1334,13 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
         hasRendered: false,
         buildFragment: function buildFragment(dom) {
           var el0 = dom.createDocumentFragment();
-          var el1 = dom.createTextNode("        ");
+          var el1 = dom.createTextNode("              ");
           dom.appendChild(el0, el1);
           var el1 = dom.createElement("li");
           var el2 = dom.createComment("");
           dom.appendChild(el1, el2);
           dom.appendChild(el0, el1);
-          var el1 = dom.createTextNode("\n        ");
+          var el1 = dom.createTextNode("\n              ");
           dom.appendChild(el0, el1);
           var el1 = dom.createElement("li");
           var el2 = dom.createComment("");
@@ -1356,7 +1356,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           morphs[1] = dom.createMorphAt(dom.childAt(fragment, [3]), 0, 0);
           return morphs;
         },
-        statements: [["block", "link-to", ["exercises"], [], 0, null, ["loc", [null, [9, 12], [9, 66]]]], ["block", "link-to", ["exercises/new"], [], 1, null, ["loc", [null, [10, 12], [10, 70]]]]],
+        statements: [["block", "link-to", ["exercises"], [], 0, null, ["loc", [null, [8, 18], [8, 72]]]], ["block", "link-to", ["exercises/new"], [], 1, null, ["loc", [null, [9, 18], [9, 76]]]]],
         locals: [],
         templates: [child0, child1]
       };
@@ -1370,12 +1370,12 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
             "loc": {
               "source": null,
               "start": {
-                "line": 15,
-                "column": 12
+                "line": 12,
+                "column": 18
               },
               "end": {
-                "line": 15,
-                "column": 57
+                "line": 12,
+                "column": 63
               }
             },
             "moduleName": "ga-wdi-boston.ember-auth/components/my-application/template.hbs"
@@ -1405,12 +1405,12 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           "loc": {
             "source": null,
             "start": {
-              "line": 14,
-              "column": 8
+              "line": 11,
+              "column": 14
             },
             "end": {
-              "line": 17,
-              "column": 8
+              "line": 14,
+              "column": 14
             }
           },
           "moduleName": "ga-wdi-boston.ember-auth/components/my-application/template.hbs"
@@ -1421,13 +1421,13 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
         hasRendered: false,
         buildFragment: function buildFragment(dom) {
           var el0 = dom.createDocumentFragment();
-          var el1 = dom.createTextNode("        ");
+          var el1 = dom.createTextNode("              ");
           dom.appendChild(el0, el1);
           var el1 = dom.createElement("li");
           var el2 = dom.createComment("");
           dom.appendChild(el1, el2);
           dom.appendChild(el0, el1);
-          var el1 = dom.createTextNode("\n        ");
+          var el1 = dom.createTextNode("\n              ");
           dom.appendChild(el0, el1);
           var el1 = dom.createElement("li");
           var el2 = dom.createElement("a");
@@ -1447,7 +1447,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           morphs[1] = dom.createElementMorph(element0);
           return morphs;
         },
-        statements: [["block", "link-to", ["change-password"], [], 0, null, ["loc", [null, [15, 12], [15, 69]]]], ["element", "action", ["signOut"], [], ["loc", [null, [16, 24], [16, 44]]]]],
+        statements: [["block", "link-to", ["change-password"], [], 0, null, ["loc", [null, [12, 18], [12, 75]]]], ["element", "action", ["signOut"], [], ["loc", [null, [13, 30], [13, 50]]]]],
         locals: [],
         templates: [child0]
       };
@@ -1461,12 +1461,12 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
             "loc": {
               "source": null,
               "start": {
-                "line": 18,
-                "column": 12
+                "line": 15,
+                "column": 18
               },
               "end": {
-                "line": 18,
-                "column": 41
+                "line": 15,
+                "column": 47
               }
             },
             "moduleName": "ga-wdi-boston.ember-auth/components/my-application/template.hbs"
@@ -1497,12 +1497,12 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
             "loc": {
               "source": null,
               "start": {
-                "line": 19,
-                "column": 12
+                "line": 16,
+                "column": 18
               },
               "end": {
-                "line": 19,
-                "column": 41
+                "line": 16,
+                "column": 47
               }
             },
             "moduleName": "ga-wdi-boston.ember-auth/components/my-application/template.hbs"
@@ -1532,12 +1532,12 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           "loc": {
             "source": null,
             "start": {
-              "line": 17,
-              "column": 8
+              "line": 14,
+              "column": 14
             },
             "end": {
-              "line": 20,
-              "column": 8
+              "line": 17,
+              "column": 14
             }
           },
           "moduleName": "ga-wdi-boston.ember-auth/components/my-application/template.hbs"
@@ -1548,13 +1548,13 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
         hasRendered: false,
         buildFragment: function buildFragment(dom) {
           var el0 = dom.createDocumentFragment();
-          var el1 = dom.createTextNode("        ");
+          var el1 = dom.createTextNode("              ");
           dom.appendChild(el0, el1);
           var el1 = dom.createElement("li");
           var el2 = dom.createComment("");
           dom.appendChild(el1, el2);
           dom.appendChild(el0, el1);
-          var el1 = dom.createTextNode("\n        ");
+          var el1 = dom.createTextNode("\n              ");
           dom.appendChild(el0, el1);
           var el1 = dom.createElement("li");
           var el2 = dom.createComment("");
@@ -1570,7 +1570,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           morphs[1] = dom.createMorphAt(dom.childAt(fragment, [3]), 0, 0);
           return morphs;
         },
-        statements: [["block", "link-to", ["sign-up"], [], 0, null, ["loc", [null, [18, 12], [18, 53]]]], ["block", "link-to", ["sign-in"], [], 1, null, ["loc", [null, [19, 12], [19, 53]]]]],
+        statements: [["block", "link-to", ["sign-up"], [], 0, null, ["loc", [null, [15, 18], [15, 59]]]], ["block", "link-to", ["sign-in"], [], 1, null, ["loc", [null, [16, 18], [16, 59]]]]],
         locals: [],
         templates: [child0, child1]
       };
@@ -1583,11 +1583,11 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           "loc": {
             "source": null,
             "start": {
-              "line": 33,
+              "line": 28,
               "column": 0
             },
             "end": {
-              "line": 35,
+              "line": 30,
               "column": 0
             }
           },
@@ -1612,7 +1612,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
           morphs[0] = dom.createMorphAt(fragment, 1, 1, contextualElement);
           return morphs;
         },
-        statements: [["inline", "flash-message", [], ["flash", ["subexpr", "@mut", [["get", "flash", ["loc", [null, [34, 24], [34, 29]]]]], [], []]], ["loc", [null, [34, 2], [34, 31]]]]],
+        statements: [["inline", "flash-message", [], ["flash", ["subexpr", "@mut", [["get", "flash", ["loc", [null, [29, 24], [29, 29]]]]], [], []]], ["loc", [null, [29, 2], [29, 31]]]]],
         locals: ["flash"],
         templates: []
       };
@@ -1631,7 +1631,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
             "column": 0
           },
           "end": {
-            "line": 40,
+            "line": 35,
             "column": 0
           }
         },
@@ -1643,60 +1643,44 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
       hasRendered: false,
       buildFragment: function buildFragment(dom) {
         var el0 = dom.createDocumentFragment();
-        var el1 = dom.createElement("nav");
-        dom.setAttribute(el1, "class", "navbar navbar-default");
-        var el2 = dom.createTextNode("\n  ");
+        var el1 = dom.createElement("div");
+        dom.setAttribute(el1, "class", "wrapper");
+        var el2 = dom.createTextNode("\n\n    ");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createComment(" Sidebar ");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createTextNode("\n    ");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("div");
-        dom.setAttribute(el2, "class", "container-fluid");
+        dom.setAttribute(el2, "class", "sidebar-wrapper");
+        var el3 = dom.createTextNode("\n        ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("ul");
+        dom.setAttribute(el3, "class", "sidebar-nav");
+        var el4 = dom.createTextNode("\n");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createComment("");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createComment("");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createTextNode("            ");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
         var el3 = dom.createTextNode("\n    ");
         dom.appendChild(el2, el3);
-        var el3 = dom.createComment("");
-        dom.appendChild(el2, el3);
-        var el3 = dom.createTextNode("\n\n    ");
-        dom.appendChild(el2, el3);
-        var el3 = dom.createElement("div");
-        dom.setAttribute(el3, "class", "collapse navbar-collapse");
-        dom.setAttribute(el3, "id", "navigation");
-        var el4 = dom.createTextNode("\n      ");
-        dom.appendChild(el3, el4);
-        var el4 = dom.createElement("ul");
-        dom.setAttribute(el4, "class", "nav navbar-nav");
-        var el5 = dom.createTextNode("\n");
-        dom.appendChild(el4, el5);
-        var el5 = dom.createComment("");
-        dom.appendChild(el4, el5);
-        var el5 = dom.createTextNode("      ");
-        dom.appendChild(el4, el5);
-        dom.appendChild(el3, el4);
-        var el4 = dom.createTextNode("\n      ");
-        dom.appendChild(el3, el4);
-        var el4 = dom.createElement("ul");
-        dom.setAttribute(el4, "class", "nav navbar-nav navbar-right");
-        var el5 = dom.createTextNode("\n");
-        dom.appendChild(el4, el5);
-        var el5 = dom.createComment("");
-        dom.appendChild(el4, el5);
-        var el5 = dom.createTextNode("      ");
-        dom.appendChild(el4, el5);
-        dom.appendChild(el3, el4);
-        var el4 = dom.createTextNode("\n    ");
-        dom.appendChild(el3, el4);
-        dom.appendChild(el2, el3);
-        var el3 = dom.createTextNode("\n  ");
-        dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
-        var el2 = dom.createTextNode("\n");
+        var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
-        var el1 = dom.createTextNode("\n\n");
+        var el1 = dom.createTextNode("\n");
         dom.appendChild(el0, el1);
         var el1 = dom.createElement("div");
-        dom.setAttribute(el1, "class", "Intro pull-center");
+        dom.setAttribute(el1, "class", "intro-container");
         var el2 = dom.createTextNode("\n");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("span");
         var el3 = dom.createElement("h1");
+        dom.setAttribute(el3, "class", "intro-title");
         var el4 = dom.createTextNode("Welcome to Play log!");
         dom.appendChild(el3, el4);
         dom.appendChild(el2, el3);
@@ -1704,6 +1688,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
         var el2 = dom.createTextNode("\n    ");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("h3");
+        dom.setAttribute(el2, "class", "intro-body");
         var el3 = dom.createTextNode("A Place that You can make your own. A judgemnet free zone to store your\n    exercises from the gym, to the mountains, to classes and even up in the air\n  aerials and acrobatics. No need to be shy, come play!");
         dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
@@ -1717,7 +1702,7 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
         var el1 = dom.createTextNode("\n");
         dom.appendChild(el0, el1);
         var el1 = dom.createElement("div");
-        dom.setAttribute(el1, "class", "col-md-8 col-md-offset-2");
+        dom.setAttribute(el1, "class", "col-md-8 col-md-offset-1 main");
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
         var el2 = dom.createComment("");
@@ -1730,17 +1715,15 @@ define("ga-wdi-boston.ember-auth/components/my-application/template", ["exports"
         return el0;
       },
       buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
-        var element1 = dom.childAt(fragment, [0, 1]);
-        var element2 = dom.childAt(element1, [3]);
-        var morphs = new Array(5);
+        var element1 = dom.childAt(fragment, [0, 3, 1]);
+        var morphs = new Array(4);
         morphs[0] = dom.createMorphAt(element1, 1, 1);
-        morphs[1] = dom.createMorphAt(dom.childAt(element2, [1]), 1, 1);
-        morphs[2] = dom.createMorphAt(dom.childAt(element2, [3]), 1, 1);
-        morphs[3] = dom.createMorphAt(fragment, 4, 4, contextualElement);
-        morphs[4] = dom.createMorphAt(dom.childAt(fragment, [6]), 1, 1);
+        morphs[1] = dom.createMorphAt(element1, 2, 2);
+        morphs[2] = dom.createMorphAt(fragment, 4, 4, contextualElement);
+        morphs[3] = dom.createMorphAt(dom.childAt(fragment, [6]), 1, 1);
         return morphs;
       },
-      statements: [["content", "navbar-header", ["loc", [null, [3, 4], [3, 21]]]], ["block", "if", [["get", "isAuthenticated", ["loc", [null, [7, 14], [7, 29]]]]], [], 0, null, ["loc", [null, [7, 8], [11, 15]]]], ["block", "if", [["get", "isAuthenticated", ["loc", [null, [14, 14], [14, 29]]]]], [], 1, 2, ["loc", [null, [14, 8], [20, 15]]]], ["block", "each", [["get", "flashMessages.queue", ["loc", [null, [33, 8], [33, 27]]]]], [], 3, null, ["loc", [null, [33, 0], [35, 9]]]], ["content", "outlet", ["loc", [null, [38, 2], [38, 12]]]]],
+      statements: [["block", "if", [["get", "isAuthenticated", ["loc", [null, [6, 20], [6, 35]]]]], [], 0, null, ["loc", [null, [6, 14], [10, 21]]]], ["block", "if", [["get", "isAuthenticated", ["loc", [null, [11, 20], [11, 35]]]]], [], 1, 2, ["loc", [null, [11, 14], [17, 21]]]], ["block", "each", [["get", "flashMessages.queue", ["loc", [null, [28, 8], [28, 27]]]]], [], 3, null, ["loc", [null, [28, 0], [30, 9]]]], ["content", "outlet", ["loc", [null, [33, 2], [33, 12]]]]],
       locals: [],
       templates: [child0, child1, child2, child3]
     };
@@ -2428,6 +2411,159 @@ define('ga-wdi-boston.ember-auth/helpers/singularize', ['exports', 'ember-inflec
 define('ga-wdi-boston.ember-auth/index/route', ['exports', 'ember'], function (exports, _ember) {
   exports['default'] = _ember['default'].Route.extend({});
 });
+define("ga-wdi-boston.ember-auth/index/template", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template((function () {
+    var child0 = (function () {
+      return {
+        meta: {
+          "fragmentReason": false,
+          "revision": "Ember@2.5.1",
+          "loc": {
+            "source": null,
+            "start": {
+              "line": 5,
+              "column": 89
+            },
+            "end": {
+              "line": 5,
+              "column": 119
+            }
+          },
+          "moduleName": "ga-wdi-boston.ember-auth/index/template.hbs"
+        },
+        isEmpty: false,
+        arity: 0,
+        cachedFragment: null,
+        hasRendered: false,
+        buildFragment: function buildFragment(dom) {
+          var el0 = dom.createDocumentFragment();
+          var el1 = dom.createTextNode("Sign Up!");
+          dom.appendChild(el0, el1);
+          return el0;
+        },
+        buildRenderNodes: function buildRenderNodes() {
+          return [];
+        },
+        statements: [],
+        locals: [],
+        templates: []
+      };
+    })();
+    var child1 = (function () {
+      return {
+        meta: {
+          "fragmentReason": false,
+          "revision": "Ember@2.5.1",
+          "loc": {
+            "source": null,
+            "start": {
+              "line": 6,
+              "column": 47
+            },
+            "end": {
+              "line": 6,
+              "column": 77
+            }
+          },
+          "moduleName": "ga-wdi-boston.ember-auth/index/template.hbs"
+        },
+        isEmpty: false,
+        arity: 0,
+        cachedFragment: null,
+        hasRendered: false,
+        buildFragment: function buildFragment(dom) {
+          var el0 = dom.createDocumentFragment();
+          var el1 = dom.createTextNode("Moving");
+          dom.appendChild(el0, el1);
+          return el0;
+        },
+        buildRenderNodes: function buildRenderNodes() {
+          return [];
+        },
+        statements: [],
+        locals: [],
+        templates: []
+      };
+    })();
+    return {
+      meta: {
+        "fragmentReason": {
+          "name": "missing-wrapper",
+          "problems": ["multiple-nodes"]
+        },
+        "revision": "Ember@2.5.1",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 10,
+            "column": 0
+          }
+        },
+        "moduleName": "ga-wdi-boston.ember-auth/index/template.hbs"
+      },
+      isEmpty: false,
+      arity: 0,
+      cachedFragment: null,
+      hasRendered: false,
+      buildFragment: function buildFragment(dom) {
+        var el0 = dom.createDocumentFragment();
+        var el1 = dom.createElement("div");
+        dom.setAttribute(el1, "class", "col-md-offset-12");
+        var el2 = dom.createTextNode("\n\n");
+        dom.appendChild(el1, el2);
+        dom.appendChild(el0, el1);
+        var el1 = dom.createTextNode("\n");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createElement("div");
+        dom.setAttribute(el1, "class", "greeting-container");
+        var el2 = dom.createTextNode("\n  ");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("h1");
+        dom.setAttribute(el2, "class", "greeting-body");
+        var el3 = dom.createTextNode("Thank You for visiting Play Log. To start your journey click ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createComment("");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createTextNode("\n  Or Checkout out how other users like to stay ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createComment("");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createTextNode("\n  ");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("br");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createTextNode("\n  ");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("h2");
+        dom.setAttribute(el2, "class", "greeting-body");
+        var el3 = dom.createTextNode(" Come back, often and don't forget to mark your routines as completed each time!");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createTextNode("\n");
+        dom.appendChild(el1, el2);
+        dom.appendChild(el0, el1);
+        var el1 = dom.createTextNode("\n");
+        dom.appendChild(el0, el1);
+        return el0;
+      },
+      buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+        var element0 = dom.childAt(fragment, [2, 1]);
+        var morphs = new Array(2);
+        morphs[0] = dom.createMorphAt(element0, 1, 1);
+        morphs[1] = dom.createMorphAt(element0, 3, 3);
+        return morphs;
+      },
+      statements: [["block", "link-to", ["sign-in"], [], 0, null, ["loc", [null, [5, 89], [5, 131]]]], ["block", "link-to", ["exercises"], [], 1, null, ["loc", [null, [6, 47], [6, 89]]]]],
+      locals: [],
+      templates: [child0, child1]
+    };
+  })());
+});
 define("ga-wdi-boston.ember-auth/initializers/active-model-adapter", ["exports", "active-model-adapter", "active-model-adapter/active-model-serializer"], function (exports, _activeModelAdapter, _activeModelAdapterActiveModelSerializer) {
   exports["default"] = {
     name: 'active-model-adapter',
@@ -2997,7 +3133,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("ga-wdi-boston.ember-auth/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+9e22165d"});
+  require("ga-wdi-boston.ember-auth/app")["default"].create({"name":"ga-wdi-boston.ember-auth","version":"0.0.0+5d8ae68a"});
 }
 
 /* jshint ignore:end */
