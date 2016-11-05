@@ -49,5 +49,5 @@ This hurdle really helped me let go of the attachment I had to the vision I orig
 proud of in the end.
 
 ## Additional Resources
-1. [Link to the Deployed App](http://natGalynker.guthub.io/play-log-client)
-1. [Link to Back End Repo](http://github.com/natGalynker/play-log-api)
+1. [Link to the Deployed App](http://natGalynker.github.io/play-log-client)
+1. [Link to Back End Repo](http://github.com/natGalynker/play-log-server)
