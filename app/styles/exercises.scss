@@ -6,7 +6,7 @@ $background-green: #7cb875;
 
 
 html {
-  height: 100%;
+background: url('https://i.imgur.com/YuRapJS.jpg') 100%;
 }
 
 .container-fluid {
@@ -83,14 +83,14 @@ html {
 }
 
 
-@media only screen and (min-width: 611px) and (max-width: 2000px) {
-  .container-fluid {
-    background-color: $background-green;
-    background-image: url('https://i.imgur.com/YuRapJS.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    padding-top: 0;
-    width: auto;
-  }
-}
+// @media only screen and (min-width: 611px) and (max-width: 2000px) {
+//   .container-fluid {
+//     background-color: $background-green;
+//     background-image: url('https://i.imgur.com/YuRapJS.jpg');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     height: 100%;
+//     padding-top: 0;
+//     width: auto;
+//   }
+// }
