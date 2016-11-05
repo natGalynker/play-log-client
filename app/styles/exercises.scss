@@ -15,9 +15,9 @@ html {
   background-repeat: x-repeat;
   background-size: cover;
   min-height: 100%;
+  overflow-y: scroll;
   padding-top: 0;
   width: 100%;
-  position: relative;
 }
 
 .exercise-holder {
@@ -26,6 +26,7 @@ html {
   margin: 2% !important;
   opacity: .7;
   padding-bottom: 5%;
+  position: relative;
 }
 
 .exercise-editable-holder {
@@ -33,6 +34,7 @@ html {
   border-radius: 20px;
   margin: 2%;
   padding-bottom: 5%;
+  position: relative;
 }
 
 .item {
