@@ -10,14 +10,13 @@ relevent to you.
 
 It is built with Ruby on Rails, Javascript, Bootstrap and EmberJS
 
-[myimage-alt-tag]('./play-log-screenshot.png')
 [link to my planning slide show](https://docs.google.com/presentation/d/1m0yT8HzM7hc2NuquLoaNMoZqRXd4EYJVA_z8-wP0q0w/edit?usp=sharing)
 
 ## Preparation
 
 1. Fork and clone this repo
 1. Install dependencies with `npm install` and `bower install`.
-1.Go here [Play Log API]  (http://github.com/natGalynker/play-log-api)  to follow the instructions to spin up the Play Log API Repos
+1.Go to [Play Log API]  (http://github.com/natGalynker/play-log-api)  to follow the instructions to spin up the Play Log API Repos
 1. Start the font-end server with `ember server --proxy http://localhost:3000`.
 
 ## User Stories
@@ -50,7 +49,6 @@ This hurdle really helped me let go of the attachment I had to the vision I orig
 proud of in the end.
 
 ## Additional Resources
-[Link to the Deployed App](http://natGalynker.guthub.io/play-log-client)
-[Link to Back End Repo](http://github.com/natGalynker/play-log-api)
-[Version one api](http://github.com/natGalynker/play-together-api)
-[Version one client](http://github.com/natGalynker/play-together-client)
+
+1.[Link to the Deployed App](http://natGalynker.guthub.io/play-log-client)
+1. [Link to Back End Repo](http://github.com/natGalynker/play-log-api)
