@@ -4,13 +4,13 @@ $purple-highlight: #353267;
 
 .wrapper.toggled {
   overflow: hidden;
-  padding-right: 275px;
+  padding-right: 200px;
 }
 
 .sidebar-wrapper {
   background: $purple-back;
   height: 100%;
-  margin-right: -275px;
+  margin-right: -200px;
   overflow-y: auto;
   position: fixed;
   right: 270px;
@@ -19,7 +19,7 @@ $purple-highlight: #353267;
 }
 
 .wrapper.toggled .sidebar-wrapper {
-  width: 275px;
+  width: 200px;
 }
 // Sidebar Styles
 .sidebar-nav {
@@ -28,7 +28,7 @@ $purple-highlight: #353267;
   padding: 0;
   position: absolute;
   top: 0;
-  width: 275px;
+  width: 200px;
 }
 
 .sidebar-nav li {
@@ -57,7 +57,7 @@ $purple-highlight: #353267;
 }
 @media(min-width:768px) {
   .wrapper {
-    padding-right: 275px;
+    padding-right: 200px;
   }
 
   .wrapper.toggled {
@@ -65,7 +65,7 @@ $purple-highlight: #353267;
   }
 
   .sidebar-wrapper {
-    width: 275px;
+    width: 200px;
   }
 
   .wrapper.toggled .sidebar-wrapper {
