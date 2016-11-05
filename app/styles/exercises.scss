@@ -10,13 +10,14 @@ html {
 }
 
 .container-fluid {
+  background: url('https://i.imgur.com/I0vwZdt.jpg') 100%;
   background-color: $background-green;
-  background-image: url('https://i.imgur.com/I0vwZdt.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-repeat: x-repeat;
+  background-size: cover;
   min-height: 100%;
   padding-top: 0;
   width: 100%;
+  position: relative;
 }
 
 .exercise-holder {
