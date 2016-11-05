@@ -4,18 +4,16 @@ $red: #f00;
 $heading-background: #998799;
 $background-green: #7cb875;
 
-
 html {
  background-image: url('https://i.imgur.com/I0vwZdt.jpg') 100% !important;
  height: 100%;
 }
 .container-fluid {
-  background: url('https://i.imgur.com/I0vwZdt.jpg');
+  background-image: ('https://i.imgur.com/I0vwZdt.jpg');
+  background-position: center;
   background-color: $background-green;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 
 }
 
