@@ -4,16 +4,16 @@ $purple-highlight: #353267;
 
 .wrapper.toggled {
   overflow: hidden;
-  padding-left: 275px;
+  padding-right: 275px;
 }
 
 .sidebar-wrapper {
   background: $purple-back;
   height: 100%;
-  margin-left: -275px;
+  margin-right: -275px;
   overflow-y: auto;
   position: fixed;
-  left: 270px;
+  right: 270px;
   width: 0;
   z-index: 1000;
 }
@@ -57,11 +57,11 @@ $purple-highlight: #353267;
 }
 @media(min-width:768px) {
   .wrapper {
-    padding-left: 275px;
+    padding-right: 275px;
   }
 
   .wrapper.toggled {
-    padding-left: 0;
+    padding-right: 0;
   }
 
   .sidebar-wrapper {
