@@ -6,12 +6,12 @@ $background-green: #7cb875;
 
 
 html {
-  height: 100%;
+ background-image: url('https://i.imgur.com/YuRapJS.jpg') 100%;
 }
 .container-fluid {
-  background: url('https://i.imgur.com/G5sSg4k.jpg') 100%;
-  background-color: $background-green;
-  background-repeat: x-repeat;
+  background: url('https://i.imgur.com/YuRapJS.jpg') 100%;
+  // background-color: $background-green;
+  // background-repeat: x-repeat;
   background-size: cover;
   min-height: 100%;
   overflow-y: scroll;
