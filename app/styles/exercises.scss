@@ -6,18 +6,13 @@ $background-green: #7cb875;
 
 html {
  background-image: url('https://i.imgur.com/I0vwZdt.jpg') 100% !important;
- // height: 100%;
- background-position: center;
- background-repeat: repeat-y;
- background-color: $background-green;
- padding-bottom: 40px;
+ height: 100%;
 }
 
 .container-fluid {
-  // background-image: url('https://i.imgur.com/I0vwZdt.jpg');
+  background-image: url('https://i.imgur.com/I0vwZdt.jpg');
   background-position: center;
-  // background-repeat: repeat-y;
-  // background-color: $background-green;
+  background-color: $background-green;
   padding-bottom: 40px;
 
 }
@@ -72,7 +67,7 @@ html {
   background-color: $heading-background;
   margin-left: 7%;
   margin-right: 7%;
-  opacity: .5;
+  opacity: .63;
   width: 60%;
 }
 
