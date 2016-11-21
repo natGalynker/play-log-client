@@ -4,18 +4,17 @@ $red: #f00;
 $heading-background: #998799;
 $background-green: #7cb875;
 
-
 html {
-background: url('https://i.imgur.com/I0vwZdt.jpg') 100%;
+ background-image: url('https://i.imgur.com/I0vwZdt.jpg') 100% !important;
+ height: 100%;
 }
+
 .container-fluid {
-  background: url('https://i.imgur.com/I0vwZdt.jpg') 100%;
-  background-color: $background-green;;
-  background-size: cover;
-  min-height: 100%;
-  padding-top: 0;
-  width: 100%;
-  position: relative;
+  background-image: url('https://i.imgur.com/I0vwZdt.jpg');
+  background-position: center;
+  background-color: $background-green;
+  padding-bottom: 40px;
+
 }
 
 .exercise-holder {
@@ -24,6 +23,7 @@ background: url('https://i.imgur.com/I0vwZdt.jpg') 100%;
   margin: 2% !important;
   opacity: .7;
   padding-bottom: 5%;
+  position: relative;
 }
 
 .exercise-editable-holder {
@@ -31,6 +31,7 @@ background: url('https://i.imgur.com/I0vwZdt.jpg') 100%;
   border-radius: 20px;
   margin: 2%;
   padding-bottom: 5%;
+  position: relative;
 }
 
 .item {
@@ -66,7 +67,7 @@ background: url('https://i.imgur.com/I0vwZdt.jpg') 100%;
   background-color: $heading-background;
   margin-left: 7%;
   margin-right: 7%;
-  opacity: .5;
+  opacity: .6;
   width: 60%;
 }
 
@@ -85,7 +86,7 @@ background: url('https://i.imgur.com/I0vwZdt.jpg') 100%;
 // @media only screen and (min-width: 611px) and (max-width: 2000px) {
 //   .container-fluid {
 //     background-color: $background-green;
-//     background-image: url('https://i.imgur.com/YuRapJS.jpg');
+//     background-image: url('https://i.imgur.com/I0vwZdt.jpg');
 //     background-repeat: no-repeat;
 //     background-size: cover;
 //     height: 100%;
